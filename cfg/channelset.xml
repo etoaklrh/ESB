@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<param-conf>
+	<!-- EBANK -->
+	<param channel="NCSS" port="39051" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- 柜面 -->
+	<param channel="CMS" port="39003" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- BIP -->
+	<param channel="BIP" port="39000" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- DBK -->
+	<param channel="DBK" port="39029" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- FAM -->
+	<param channel="FAM" port="39030" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- FIN -->
+	<param channel="FIN" port="39031" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- IBP -->
+	<param channel="IBP" port="39032" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- IF -->
+	<param channel="IF" port="39033" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- POS -->
+	<param channel="POS" port="39018" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- PS2 -->
+	<param channel="PS2" port="39034" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- RMS -->
+	<param channel="RMS" port="39035" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- UPP -->
+	<param channel="UPP" port="39036" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- MBS -->
+	<param channel="MBS" port="39046" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- BIC -->
+	<param channel="BIC" port="39055" headLen="8" encode="UTF-8" type="TCP"/>		 
+	<!-- BON -->
+	<param channel="BON" port="39056" headLen="8" encode="UTF-8" type="TCP"/>		 
+	<!-- CTS -->
+	<param channel="CTS" port="39057" headLen="8" encode="UTF-8" type="TCP"/>		 
+	<!-- DCH -->
+	<param channel="DCH" port="39058" headLen="8" encode="UTF-8" type="TCP"/>		 
+	<!-- EBS -->
+	<param channel="EBS" port="39059" headLen="8" encode="UTF-8" type="TCP"/>		 
+	<!-- TLE -->
+	<param channel="TLE" port="39200" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- ARM -->
+	<param channel="ARM" port="39068" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- CM -->
+	<param channel="CM" port="39042" headLen="8" encode="UTF-8" type="TCP"/>		
+	<!-- COS -->
+	<param channel="COS" port="39028" headLen="8" encode="UTF-8" type="TCP"/>		
+	<!-- FTP -->
+	<param channel="FTP" port="39067" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- EOS -->
+	<param channel="EOS" port="39043" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- EB -->
+	<param channel="EB" port="39045" headLen="8" encode="UTF-8" type="TCP"/>		
+</param-conf>

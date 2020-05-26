@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<service>
+  <sysHead>
+    <svcCd>1</svcCd>
+    <scnCd>1</scnCd>
+    <cnsmSysId>1</cnsmSysId>
+    <prvdSysId>1</prvdSysId>
+    <prvdSysSvrId>1</prvdSysSvrId>
+    <subSeqNo>1</subSeqNo>
+    <prvdSysSeqNo>1</prvdSysSeqNo>
+    <retStatus>1</retStatus>
+    <sourceBranchNo>1</sourceBranchNo>
+    <runDate>1</runDate>
+    <tranDate>1</tranDate>
+    <tranTimestamp>1</tranTimestamp>
+    <ret>
+      <retCode>1</retCode>
+      <retMsg>1</retMsg>
+    </ret>
+    <fileFlg>1</fileFlg>
+    <filePath>1</filePath>
+    <seqNo>1</seqNo>
+    <macValue>1</macValue>
+    <branchId>1</branchId>
+    <clientNo>1</clientNo>
+  </sysHead>
+  <appHead>
+    <pgupOrPgdn>1</pgupOrPgdn>
+    <totalNum>1</totalNum>
+    <currentNum>1</currentNum>
+    <totalRows>1</totalRows>
+    <totalFlag>1</totalFlag>
+  </appHead>
+  <body>
+    <aplyBillNo>1</aplyBillNo>
+    <workDt>1</workDt>
+    <invstrTyp>1</invstrTyp>
+    <invstrTypNam>1</invstrTypNam>
+  </body>
+</service>

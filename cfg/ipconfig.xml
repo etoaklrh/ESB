@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<param-conf>
+	<!-- 应用 1 -->
+	<param name="esbapp1" ip="10.7.19.35"/> 
+	<!-- 应用 2 
+	<param name="esbapp2" ip="10.229.169.12"/> -->
+	<!-- 应用 3 
+	<param name="esbapp3" ip="10.2.247.37"/> -->
+	<!-- 应用 4 
+	<param name="esbapp4" ip="10.2.247.38"/> -->
+	<!-- F5 
+	<param name="f5" ip="9.1.6.43"/> -->
+</param-conf>

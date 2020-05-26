@@ -1,0 +1,3165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel id="default" type="dynamic">
+    <switch mode="cd" expression="SERVICE_CODE" encode="UTF-8">
+      <!--旧柜面业务处理系统-->
+      <case flowname="through_in" value="TLR_TRALBOX">TLR_TRALBOX</case>
+      <case flowname="through_in" value="SVR_MIVS">SVR_MIVS</case>
+      <!--旧柜面业务处理系统end-->
+      <!--银联商务接入系统-->
+      <case flowname="through_in" value="SVR_BCUPS">SVR_BCUPS</case>
+      <!--银联商务接入系统end-->
+      <!--电子国债业务接入系统-->
+      <case flowname="through_in" value="SVR_BOND">SVR_BOND</case>
+      <!--电子国债业务接入系统end-->
+      <!--山西同城清算业务接入系统-->
+      <case flowname="through_in" value="SVR_TC">SVR_TC</case>
+      <!--山西同城清算业务接入系统end-->
+      <!--渠道前置业务系统-->
+      <case flowname="through_in" value="PHN_QUERY">PHN_QUERY</case>
+      <case flowname="through_in" value="PHN_MGMT">PHN_MGMT</case>
+      <case flowname="through_in" value="LOGICMGMT">LOGICMGMT</case>
+      <case flowname="through_in" value="BILL_ENCRYPT">BILL_ENCRYPT</case>
+      <case flowname="through_in" value="CHECKIMAGE">CHECKIMAGE</case>
+      <case flowname="through_in" value="ITSD_CREDIT">ITSD_CREDIT</case>
+      <case flowname="through_in" value="LOGIC_ADMIN">LOGIC_ADMIN</case>
+      <case flowname="through_in" value="BH_ONE">BH_ONE</case>
+      <case flowname="through_in" value="SVR_LOYALTY">SVR_LOYALTY</case>
+      <case flowname="through_in" value="SVR_FSS">SVR_FSS</case>
+      <case flowname="through_in" value="SVR_CP">SVR_CP</case>
+      <case flowname="through_in" value="SVR_DPPASSWORD">SVR_DPPASSWORD</case>
+      <case flowname="through_in" value="SVR_CM">SVR_CM</case>
+      <case flowname="through_in" value="SVR_QUEUE">SVR_QUEUE</case>
+      <case flowname="through_in" value="SVR_CFS">SVR_CFS</case>
+      <case flowname="through_in" value="SVR_EB">SVR_EB</case>
+      <case flowname="through_in" value="SVR_JSH">SVR_JSH</case>
+      <!--渠道前置业务系统end-->
+      <!--信贷业务接入系统-->
+      <case flowname="through_in" value="SVR_CMIS">SVR_CMIS</case>
+      <!--信贷业务接入系统end-->
+      <!--信用卡业务接入系统-->
+      <case flowname="through_in" value="CREDIT_FIN">CREDIT_FIN</case>
+      <case flowname="through_in" value="CREDIT_MANAGE">CREDIT_MANAGE</case>
+      <case flowname="through_in" value="CREDIT_QUERY">CREDIT_QUERY</case>
+      <!--信用卡业务接入系统end-->
+      <!--银联业务接入前置系统-->
+      <case flowname="through_in" value="CUPSGOACCT">CUPSGOACCT</case>
+      <case flowname="through_in" value="CUPSMGMT">CUPSMGMT</case>
+      <case flowname="through_in" value="CUPSQUERY">CUPSQUERY</case>
+      <!--银联业务接入前置系统end-->
+      <!--直销银行业务接入系统-->
+      <case flowname="through_in" value="SVR_DBANK">SVR_DBANK</case>
+      <case flowname="through_in" value="SVR_BF">SVR_BF</case>
+      <!--直销银行业务接入系统end-->
+      <!--直销银行集中代收付-->
+      <case flowname="through_in" value="SVR_DBANKJZ">SVR_DBANKJZ</case>
+      <!--直销银行集中代收付end-->
+      <!--网银业务接入系统-->
+      <case flowname="through_in" value="SVR_EBANK">SVR_EBANK</case>
+      <!--网银业务接入系统end-->
+      <!--联网核查接入系统-->
+      <case flowname="through_in" value="SVR_ADAPTER">SVR_ADAPTER</case>
+      <case flowname="through_in" value="PICSGOACCT">PICSGOACCT</case>
+      <case flowname="through_in" value="PICSMGMT">PICSMGMT</case>
+      <case flowname="through_in" value="PICSQUERY">PICSQUERY</case>
+      <!--联网核查接入系统end-->
+      <!--卡业务系统-->
+      <case flowname="through_in" value="SVR_CARD">SVR_CARD</case>
+      <case flowname="through_in" value="SVR_CARDFILE">SVR_CARDFILE</case>
+      <!--卡业务系统end-->
+      <!--原中间业务系统-->
+      <case flowname="through_in" value="SVR_COMMON">SVR_COMMON</case>
+      <case flowname="through_in" value="SVR_ONLINE">SVR_ONLINE</case>
+      <case flowname="through_in" value="SVR_AGENT">SVR_AGENT</case>
+      <case flowname="through_in" value="SVR_FINANCING">SVR_FINANCING</case>
+      <case flowname="through_in" value="SVR_TIPS">SVR_TIPS</case>
+      <case flowname="through_in" value="SVR_CUSTOM">SVR_CUSTOM</case>
+      <case flowname="through_in" value="Ext_InsuranceFile">Ext_InsuranceFile</case>
+      <case flowname="through_in" value="Ext_CheckDatasToNewcore">Ext_CheckDatasToNewcore</case>
+      <case flowname="through_in" value="SVR_BCDC">SVR_BCDC</case>
+      <!--原中间业务系统end-->
+      <!--二代支付业务-->
+      <case flowname="through_in" value="SVR_PTS2">SVR_PTS2</case>
+      <case flowname="through_in" value="SVR_OB">SVR_OB</case>
+      <!--二代支付业务end-->
+      <!--IC卡业务处理系统-->
+      <case flowname="through_in" value="SVR_ICCARD">SVR_ICCARD</case>
+      <!--IC卡业务处理系统end-->
+      <!--核心业务系统-->
+      <case flowname="through_in" value="SVR_FINANCIAL">SVR_FINANCIAL</case>
+      <case flowname="through_in" value="SVR_REVERSAL">SVR_REVERSAL</case>
+      <case flowname="through_in" value="SVR_NONFINANCIAL">SVR_NONFINANCIAL</case>
+      <case flowname="through_in" value="SVR_INQUIRY">SVR_INQUIRY</case>
+      <case flowname="through_in" value="SVR_FILE">SVR_FILE</case>
+      <!--核心业务系统end-->
+      <!--人行超网接入系统-->
+      <case flowname="through_in" value="SVR_IBPS">SVR_IBPS</case>
+      <!--人行超网接入系统end-->
+      <!--数据交换平台-->
+      <case flowname="through_in" value="FILE_TRANSFER">FILE_TRANSFER</case>
+      <!--数据交换平台end-->
+      <!--银联对账平台-->
+      <case flowname="through_in" value="CHECK_BUSINESS">CHECK_BUSINESS</case>
+      <case flowname="through_in" value="CHECK_MGMT">CHECK_MGMT</case>
+      <case flowname="through_in" value="CHECK_QUERY">CHECK_QUERY</case>
+      <case flowname="through_in" value="CHECK_CONSOLE">CHECK_CONSOLE</case>
+      <!--银联对账平台end-->
+      <!--财税库银-->
+      <case flowname="through_in" value="SVR_TIPS2">SVR_TIPS2</case>
+      <!--财税库银end-->
+      <!--银保通前置-->
+      <case flowname="through_in" value="SVR_BRPUB">SVR_BRPUB</case>
+      <case flowname="through_in" value="SVR_INVEST">SVR_INVEST</case>
+      <!--银保通前置end-->
+      <!--村镇银行前置-->
+      <case flowname="through_in" value="SVR_AGENTBRANCH">SVR_AGENTBRANCH</case>
+      <!--村镇银行前置end-->
+      <!--住建部结算系统-->
+      <case flowname="through_in" value="SVR_BRZJB">SVR_BRZJB</case>
+      <!--住建部结算系统end-->
+      <!--一代支付网关-->
+      <case flowname="through_in" value="GOACCT">GOACCT</case>
+      <case flowname="through_in" value="MGMT">MGMT</case>
+      <case flowname="through_in" value="QUERY">QUERY</case>
+      <case flowname="through_in" value="INTEOD">INTEOD</case>
+      <!--一代支付网关end-->
+      <!--无卡支付-->
+      <case flowname="through_in" value="SVR_NCPAY">SVR_NCPAY</case>
+      <case flowname="through_in" value="SVR_NCPAYCHECK">SVR_NCPAYCHECK</case>
+      <!--无卡支付end-->
+      <!--Teller9服务-->
+      <case flowname="through_in" value="JSBANK_SERVICE">JSBANK_SERVICE</case>
+      <!--Teller9服务-->
+      <!--新中间业务平-->
+      <case flowname="through_in" value="SVR_BRANCHPLATFORM">SVR_BRANCHPLATFORM</case>
+      <!--新中间业务平台end-->
+      <!--无纸化start-->
+      <case flowname="through_in" value="PAPERLESS_VOUCHERMANAGER">PAPERLESS_VOUCHERMANAGER</case>
+      <case flowname="through_in" value="PAPERLESS_INTERACTIVE">PAPERLESS_INTERACTIVE</case>
+      <case flowname="through_in" value="PAPERLESS_VOUCHERBUILD">PAPERLESS_VOUCHERBUILD</case>
+      <case flowname="through_in" value="PAPERLESS_VOUCHERTEMPLATE">PAPERLESS_VOUCHERTEMPLATE</case>
+      <case flowname="through_in" value="PAPERLESS_RECEIPTMANAGER">PAPERLESS_RECEIPTMANAGER</case>
+      <!--无纸化end-->
+    </switch>
+  </channel>
+  <!--投资银行IBS-->
+  <channel id="IBS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001100000902">3001100000902</case>
+      <case value="3001300000323">3001300000323</case>
+      <case value="3001300000320">3001300000320</case>
+      <!--新核心配套by yangxfj end-->
+      <!--信贷管理系统by yufxb start-->
+      <case value="2001300000136">2001300000136</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="3001500000101">3001500000101</case>
+      <case value="3001100000101">3001100000101</case>
+      <case value="3001300000101">3001300000101</case>
+      <case value="3001500000201">3001500000201</case>
+      <case value="2001300000101">2001300000101</case>
+      <case value="5001300000901">5001300000901</case>
+      <case value="5001300000902">5001300000902</case>
+    </switch>
+  </channel>
+  <!--现金管理CM-->
+  <channel id="CM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="2001300000125">2001300000125</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="3001500000202">3001500000202</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3002100000212">3002100000212</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300001105">3001300001105</case>
+      <case value="3002300000109">3002300000109</case>
+      <case value="3002300001104">3002300001104</case>
+      <case value="3002300000321">3002300000321</case>
+      <case value="3002300000322">3002300000322</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="5001200000306">5001200000306</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="2002200000109">2002200000109</case>
+      <case value="3001500000502">3001500000502</case>
+      <case value="5001300000205">5001300000205</case>
+      <case value="2001200000402">2001200000402</case>
+      <case value="5001300000310">5001300000310</case>
+      <case value="3001300000222">3001300000222</case>
+      <case value="3001300000403">3001300000403</case>
+      <case value="3001300001501">3001300001501</case>
+      <case value="6001200000601">6001200000601</case>
+      <case value="3001200001202">3001200001202</case>
+      <case value="3003300000115">3003300000115</case>
+      <case value="3001300001601">3001300001601</case>
+      <case value="5001200000306">5001200000306</case>
+      <!--新核心配套by yangxfj end-->
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002300000608">3002300000608</case>
+      <!--信贷管理系统by yufxb end-->
+      <case value="3004300001803">3004300001803</case>
+      <case value="3004300001804">3004300001804</case>
+      <case value="3004300001805">3004300001805</case>
+      <case value="3004300001806">3004300001806</case>
+      <case value="3004300001807">3004300001807</case>
+      <case value="3004300001808">3004300001808</case>
+      <case value="3004300001809">3004300001809</case>
+      <case value="3004200001704">3004200001704</case>
+      <case value="3004200001703">3004200001703</case>
+      <case value="3004200001705">3004200001705</case>
+      <case value="3004200001602">3004200001602</case>
+      <case value="3004200001706">3004200001706</case>
+      <case value="3004300001810">3004300001810</case>
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="3002300000604">3002300000604</case>
+    </switch>
+  </channel>
+  <!--信贷管理CMS-->
+  <channel id="CMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--现金管理系统-->
+      <case value="3002200000211">3002200000211</case>
+      <case value="3002300000610">3002300000610</case>
+      <case value="3002200000212">3002200000212</case>
+      <case value="3002200000213">3002200000213</case>
+      <case value="3002300000611">3002300000611</case>
+      <case value="3002100000213">3002100000213</case>
+      <case value="3002100000214">3002100000214</case>
+      <!--新核心配套by yufxb start-->
+      <case value="2001300000127">2001300000127</case>
+      <case value="3001100000107">3001100000107</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300000323">3001300000323</case>
+      <case value="3001300001105">3001300001105</case>
+      <case value="3002100000105">3002100000105</case>
+      <case value="3002100000106">3002100000106</case>
+      <case value="3002100000212">3002100000212</case>
+      <case value="3002100000405">3002100000405</case>
+      <case value="3002100000406">3002100000406</case>
+      <case value="3002100000407">3002100000407</case>
+      <case value="3002200000328">3002200000328</case>
+      <case value="3002200000329">3002200000329</case>
+      <case value="3002200000330">3002200000330</case>
+      <case value="3002200000906">3002200000906</case>
+      <case value="3002200001001">3002200001001</case>
+      <case value="3002200001101">3002200001101</case>
+      <case value="3002200001102">3002200001102</case>
+      <case value="3002200001201">3002200001201</case>
+      <case value="3002200001202">3002200001202</case>
+      <case value="3002200001301">3002200001301</case>
+      <case value="3002200001401">3002200001401</case>
+      <case value="3002200001402">3002200001402</case>
+      <case value="3002200001403">3002200001403</case>
+      <case value="3002200001404">3002200001404</case>
+      <case value="3002200001405">3002200001405</case>
+      <case value="3002200001406">3002200001406</case>
+      <case value="3002200001407">3002200001407</case>
+      <case value="3002200001408">3002200001408</case>
+      <case value="3002200001501">3002200001501</case>
+      <case value="3002200001502">3002200001502</case>
+      <case value="3002200001503">3002200001503</case>
+      <case value="3002200001504">3002200001504</case>
+      <case value="3002300000109">3002300000109</case>
+      <case value="3002300000110">3002300000110</case>
+      <case value="3002300000111">3002300000111</case>
+      <case value="3002300000210">3002300000210</case>
+      <case value="3002300000211">3002300000211</case>
+      <case value="3002300000212">3002300000212</case>
+      <case value="3002300000213">3002300000213</case>
+      <case value="3002300000214">3002300000214</case>
+      <case value="3002300000215">3002300000215</case>
+      <case value="3002300000320">3002300000320</case>
+      <case value="3002300000321">3002300000321</case>
+      <case value="3002300000322">3002300000322</case>
+      <case value="3002300000403">3002300000403</case>
+      <case value="3002300000404">3002300000404</case>
+      <case value="3002300000506">3002300000506</case>
+      <case value="3002300000507">3002300000507</case>
+      <case value="3002300000508">3002300000508</case>
+      <case value="3002300000509">3002300000509</case>
+      <case value="3002300001004">3002300001004</case>
+      <case value="3002300001005">3002300001005</case>
+      <case value="3002300001006">3002300001006</case>
+      <case value="3002300001102">3002300001102</case>
+      <case value="3002300001103">3002300001103</case>
+      <case value="3002300001104">3002300001104</case>
+      <case value="3002300001201">3002300001201</case>
+      <case value="3002300001202">3002300001202</case>
+      <case value="3002300001301">3002300001301</case>
+      <case value="3002300001401">3002300001401</case>
+      <case value="3002300001402">3002300001402</case>
+      <case value="3002400000102">3002400000102</case>
+      <case value="5001100000103">5001100000103</case>
+      <!--新核心配套by yufxb end-->
+      <!--新核心配套by yangxfj start-->
+      <!--集中作业COS-->
+      <case value="5001200003704">5001200003704</case>
+      <case value="5001200003702">5001200003702</case>
+      <!--新核心配套by yangxfj end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="3002200000201">3002200000201</case>
+      <case value="3002300000602">3002300000602</case>
+      <case value="3002200000202">3002200000202</case>
+      <case value="3002200000203">3002200000203</case>
+      <case value="3002300000603">3002300000603</case>
+      <case value="3002100000201">3002100000201</case>
+      <case value="3002100000202">3002100000202</case>
+      <case value="3001100000702">3001100000702</case>
+      <case value="3001300001005">3001300001005</case>
+      <case value="3001300000201">3001300000201</case>
+      <case value="3001300000307">3001300000307</case>
+      <!--电票系统start-->
+      <case value="3004300000901">3004300000901</case>
+      <case value="3004300000902">3004300000902</case>
+      <case value="3004200000801">3004200000801</case>
+      <case value="3004200000802">3004200000802</case>
+      <!--电票系统end-->
+      <!--全面风险start-->
+      <case value="5001200000401">5001200000401</case>
+      <case value="5001200000402">5001200000402</case>
+      <case value="2001200000103">2001200000103</case>
+      <case value="3002200000303">3002200000303</case>
+      <case value="3002200000304">3002200000304</case>
+      <case value="3002200000305">3002200000305</case>
+      <case value="3002200000306">3002200000306</case>
+      <case value="3002200000307">3002200000307</case>
+      <case value="3002200000308">3002200000308</case>
+      <case value="3002200000309">3002200000309</case>
+      <!--全面风险end-->
+      <!--核心系统start-->
+      <case value="2001300000109">2001300000109</case>
+      <case value="3001300000301">3001300000301</case>
+      <case value="2001300000115">2001300000115</case>
+      <case value="3002200000315">3002200000315</case>
+      <case value="3002300000606">3002300000606</case>
+      <case value="3002100000401">3002100000401</case>
+      <case value="3002100000402">3002100000402</case>
+      <case value="3002100000403">3002100000403</case>
+      <case value="3002100000205">3002100000205</case>
+      <case value="3002100000206">3002100000206</case>
+      <case value="3002200000316">3002200000316</case>
+      <case value="3002200000318">3002200000318</case>
+      <case value="3002300000102">3002300000102</case>
+      <case value="3002200000901">3002200000901</case>
+      <case value="3002300000308">3002300000308</case>
+      <case value="3001300001005">3001300001005</case>
+      <case value="3002200000319">3002200000319</case>
+      <case value="3002200000320">3002200000320</case>
+      <case value="3002200000605">3002200000605</case>
+      <case value="3002200000606">3002200000606</case>
+      <case value="3002200000903">3002200000903</case>
+      <case value="3002200000321">3002200000321</case>
+      <case value="3002100000207">3002100000207</case>
+      <case value="3002100000208">3002100000208</case>
+      <case value="3002100000404">3002100000404</case>
+      <case value="5001200000701">5001200000701</case>
+      <case value="3002200000322">3002200000322</case>
+      <case value="3002300000312">3002300000312</case>
+      <case value="3002300000313">3002300000313</case>
+      <case value="3002300000314">3002300000314</case>
+      <case value="3002300000315">3002300000315</case>
+      <case value="3002300000316">3002300000316</case>
+      <case value="5001300000801">5001300000801</case>
+      <case value="3002200000323">3002200000323</case>
+      <case value="3002200000324">3002200000324</case>
+      <case value="3002200000325">3002200000325</case>
+      <case value="3002200000326">3002200000326</case>
+      <case value="3002100000103">3002100000103</case>
+      <case value="3002200000905">3002200000905</case>
+      <case value="3002300000503">3002300000503</case>
+      <case value="3002300001001">3002300001001</case>
+      <case value="3001100000601">3001100000601</case>
+      <case value="5001300001001">5001300001001</case>
+      <case value="3002100000104">3002100000104</case>
+      <!--核心系统end-->
+      <!--集中作业start-->
+      <case value="3004300000903">3004300000903</case>
+      <case value="3002200000502">3002200000502</case>
+      <!--集中作业end-->
+      <!--国结系统start-->
+      <case value="3004300001001">3004300001001</case>
+      <!--国结系统end-->
+      <!--无纸化start-->
+      <case value="6001500000107">6001500000107</case>
+      <!--无纸化end-->
+    </switch>
+  </channel>
+  <!--商户金融-->
+  <channel id="CFA" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001300000125">2001300000125</case>
+      <case value="2001300000127">2001300000127</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3003300000115">3003300000115</case>
+      <case value="5001100000103">5001100000103</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <!--核心start-->
+      <case value="SVR_INQUIRY,1400,5131">3004300000201</case>
+      <case value="SVR_INQUIRY,1400,0416">3004200000201</case>
+      <case value="SVR_INQUIRY,1400,0108">3001300000301</case>
+      <case value="SVR_INQUIRY,1400,0002">2001300000102</case>
+      <case value="SVR_INQUIRY,1400,0007">3001300000201</case>
+      <case value="SVR_REVERSAL,1300,0001">3002400000101</case>
+      <case value="SVR_FINANCIAL,1000,5124">3004100000102</case>
+      <case value="SVR_FINANCIAL,1000,5125">3004300000103</case>
+      <case value="SVR_FINANCIAL,1000,5126">3004300000104</case>
+      <case value="SVR_FINANCIAL,1000,5112">3004100000101</case>
+      <case value="SVR_FINANCIAL,1000,5113">3004300000101</case>
+      <case value="SVR_FINANCIAL,1000,5123">3004300000102</case>
+      <case value="SVR_FINANCIAL,1000,5132">3001100000102</case>
+      <case value="SVR_FINANCIAL,1000,0103">3001100000201</case>
+      <case value="SVR_FINANCIAL,1000,0104">5001200000201</case>
+      <case value="SVR_NONFINANCIAL,1200,1101">3004200000301</case>
+      <case value="SVR_NONFINANCIAL,1200,0108">3001200000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5133">5001200000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5130">3004200000202</case>
+      <case value="SVR_NONFINANCIAL,1200,5110">3006500000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5111">3006300000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5119">3006300000102</case>
+      <case value="SVR_FINANCIAL,1000,0136">3001100000105</case>
+      <!--核心end-->
+      <!--超网start-->
+      <case value="SVR_IBPS,1400,1902">3004300000301</case>
+      <case value="SVR_IBPS,1400,1908">3004300000205</case>
+      <case value="SVR_IBPS,1200,1901">3004100000302</case>
+      <case value="SVR_IBPS,1400,106004">2001300000301</case>
+      <case value="SVR_IBPS,1200,1902">3004100000403</case>
+      <case value="SVR_IBPS,1200,106086">2001200000201</case>
+      <case value="SVR_IBPS,1200,1915">3004200000207</case>
+      <!--超网end-->
+      <!--二代start-->
+      <case value="SVR_PTS2,1200,6063">3006200000101</case>
+      <case value="SVR_PTS2,1400,6063">3006300000201</case>
+      <case value="SVR_PTS2,1200,6101">3004100000301</case>
+      <!--二代end-->
+      <!--卡start-->
+      <case value="SVR_CARD,1400,6035">3003300000101</case>
+      <case value="SVR_CARD,1200,6021">3003200000101</case>
+      <case value="SVR_CARD,1400,6009">3003300000102</case>
+      <case value="SVR_CARD,1000,6006">3001100000202</case>
+      <case value="SVR_CARD,1000,6007">3003400000101</case>
+      <case value="SVR_CARD,1400,6012">3001300000202</case>
+      <case value="SVR_CARD,1400,6013">3001300000401</case>
+      <case value="SVR_CARD,1200,6032">3003200000201</case>
+      <!--卡end-->
+      <!--信用卡start-->
+      <case value="CREDIT_FIN,1000,8050">3003100000101</case>
+      <case value="CREDIT_FIN,1000,8051">3003100000102</case>
+      <!--信用卡end-->
+    </switch>
+  </channel>
+  <!--直销银行-->
+  <channel id="DBK" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="2001200000115">2001200000115</case>
+      <case value="2001300000127">2001300000127</case>
+      <case value="3001100000303">3001100000303</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000801">3001200000801</case>
+      <case value="3001200000802">3001200000802</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="4001300000102">4001300000102</case>
+      <case value="5001100000302">5001100000302</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="5001300001201">5001300001201</case>
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <!--超网start-->
+      <case value="SVR_IBPS,1400,1902">3004300000301</case>
+      <case value="SVR_IBPS,1400,1908">3004300000205</case>
+      <case value="SVR_IBPS,1200,1901">3004100000302</case>
+      <case value="SVR_IBPS,1400,1901">3004300000304</case>
+      <case value="SVR_IBPS,1400,106023">3001300000303</case>
+      <case value="SVR_IBPS,1200,1915">3004200000207</case>
+      <case value="SVR_IBPS,1400,106004">2001300000301</case>
+      <case value="SVR_IBPS,1200,106086">2001200000201</case>
+      <case value="SVR_IBPS,1200,1902">3004100000403</case>
+      <!--超网end-->
+      <!--二代start-->
+      <case value="SVR_PTS2,1400,1230">2001300000104</case>
+      <case value="SVR_PTS2,1400,6712">3004300000204</case>
+      <case value="SVR_PTS2,1200,6902">3004400000205</case>
+      <case value="SVR_PTS2,1400,6713">5001300000101</case>
+      <case value="SVR_PTS2,1200,8700">2001300000103</case>
+      <case value="SVR_PTS2,1200,6101">3004100000301</case>
+      <case value="SVR_NONFINANCIAL,1200,1101">3004100000404</case>
+      <!--二代end-->
+      <!--核心start-->
+      <case value="SVR_INQUIRY,1400,0416">3004200000201</case>
+      <case value="SVR_INQUIRY,1400,5128">3001300000302</case>
+      <case value="SVR_INQUIRY,1400,5129">3002300000101</case>
+      <case value="SVR_INQUIRY,1400,8058">3004300000303</case>
+      <case value="SVR_INQUIRY,1400,8055">3004300000302</case>
+      <case value="SVR_INQUIRY,1400,8750">3004300000401</case>
+      <case value="SVR_INQUIRY,1400,8081">3004300000203</case>
+      <case value="SVR_INQUIRY,1400,1911">3004300000202</case>
+      <case value="SVR_FINANCIAL,1000,1912">3001100000301</case>
+      <case value="SVR_FINANCIAL,1000,5124">3004100000102</case>
+      <case value="SVR_FINANCIAL,1000,5125">3004300000103</case>
+      <case value="SVR_FINANCIAL,1000,5126">3004300000104</case>
+      <case value="SVR_FINANCIAL,1000,5112">3004100000101</case>
+      <case value="SVR_FINANCIAL,1000,5113">3004300000101</case>
+      <case value="SVR_FINANCIAL,1000,5123">3004300000102</case>
+      <case value="SVR_FINANCIAL,1000,8005">3004100000201</case>
+      <case value="SVR_FINANCIAL,1000,5127">3001100000103</case>
+      <case value="SVR_NONFINANCIAL,1200,1911">3004200000203</case>
+      <case value="SVR_NONFINANCIAL,1200,8080">3004200000204</case>
+      <case value="SVR_NONFINANCIAL,1200,5110">3006500000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5111">3006300000101</case>
+      <case value="SVR_NONFINANCIAL,1200,5119">3006300000102</case>
+      <case value="SVR_NONFINANCIAL,1200,0416">3006200000201</case>
+      <case value="SVR_NONFINANCIAL,1200,0121">2001300000201</case>
+      <case value="SVR_NONFINANCIAL,1200,5128">3001200000201</case>
+      <case value="SVR_FINANCIAL,1000,0136">3001100000105</case>
+      <case value="SVR_FINANCIAL,1000,0101">3001100000401</case>
+      <case value="SVR_FINANCIAL,1000,0102">3001100000402</case>
+      <case value="SVR_FINANCIAL,1000,0103">3001100000201</case>
+      <case value="SVR_INQUIRY,1400,0002">2001300000102</case>
+      <case value="SVR_NONFINANCIAL,1200,5112">1003200000103</case>
+      <case value="SVR_NONFINANCIAL,1200,5113">1003200000104</case>
+      <case value="SVR_INQUIRY,1400,5114">3001300000310</case>
+      <case value="SVR_INQUIRY,1400,0108">3001300000301</case>
+      <case value="SVR_INQUIRY,1400,0104">3001300000402</case>
+      <case value="SVR_FINANCIAL,1000,5128">3001200000502</case>
+      <!--核心end-->
+      <!--数据交换平台start-->
+      <case value="FILE_TRANSFER,4201,16188">3001100000104</case>
+      <!--数据交换平台end-->
+      <!--信用卡start-->
+      <case value="CREDIT_QUERY,1400,7125">3003300000201</case>
+      <!--信用卡end-->
+      <!--联网核查start-->
+      <case value="PICSGOACCT,3101,180001">2001300000105</case>
+      <!--联网核查end-->
+      <!--卡start-->
+      <case value="SVR_CARD,1200,6021">3003200000101</case>
+      <case value="SVR_CARD,1000,6006">3001100000202</case>
+      <case value="SVR_CARD,1400,6100">1003300000101</case>
+      <case value="SVR_CARD,1400,6012">3001300000202</case>
+      <case value="SVR_CARD,1000,6001">3003100000201</case>
+      <case value="SVR_CARD,1000,6002">3003100000202</case>
+      <!--卡end-->
+      <!--新中间业务系统start-->
+      <case value="SVR_BRANCHPLATFORM,3001,0007">3006200000501</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0004">3006300000701</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0005">3006300000603</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0006">3006100000103</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0008">3006300000604</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0010">3006300000502</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0013">3006200000404</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0018">3006100000113</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0015">3006300000503</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0016">3006300000616</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0017">3006300000405</case>
+      <!--新中间业务系统end-->
+      <!--支付风险控制系统start-->
+      <case value="SVR_ESB,PRCS,0001">4001200000101</case>
+      <!--支付风险控制系统end-->
+      <!--人证合一start-->
+      <case value="SVR_ESB,CSIIVP,0001">4001200000201</case>
+      <case value="SVR_ESB,CSIIVP,0002">4001200000202</case>
+      <case value="SVR_ESB,CSIIVP,0003">4001200000203</case>
+      <case value="SVR_ESB,CSIIVP,0004">4001200000204</case>
+      <case value="SVR_ESB,CSIIVP,0005">4001200000205</case>
+      <!--人证合一end-->
+    </switch>
+  </channel>
+  <!--核心CBS-->
+  <channel id="CBS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001200001203">3001200001203</case>
+      <case value="5001300000208">5001300000208</case>
+      <case value="6001200000602">6001200000602</case>
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_DBANK,2000,0001">3004200000101</case>
+      <case value="SVR_BF,2000,0101">3004200000111</case>
+      <case value="SVR_BF,2000,0017">3004200000206</case>
+      <case value="SVR_DBANK,1200,9910">3001100000901</case>
+    </switch>
+  </channel>
+  <!--二代支付CNAPS2-->
+  <channel id="CNAPS2" type="dynamic">
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_DBANK,2000,0002">3004200000102</case>
+      <case value="SVR_DBANK,2000,0003">3004200000103</case>
+      <case value="SVR_DBANK,2000,0004">3004200000104</case>
+      <case value="SVR_DBANK,2000,0005">3004200000105</case>
+      <case value="SVR_DBANK,2000,0006">3004200000106</case>
+      <case value="SVR_DBANK,2000,0007">3004200000107</case>
+      <case value="SVR_DBANK,2000,0008">3004200000112</case>
+    </switch>
+  </channel>
+  <!--超级网银IBP-->
+  <channel id="IBP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001300000225">3001300000225</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300001302">3001300001302</case>
+      <case value="3004100000901">3004100000901</case>
+      <case value="3004300001501">3004300001501</case>
+      <case value="3004400000102">3004400000102</case>
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_DBANK,2000,0013">3004200000108</case>
+      <case value="SVR_DBANK,2000,0014">3004200000109</case>
+      <case value="SVR_DBANK,2000,0015">3004200000110</case>
+      <case value="SVR_DBANK,2000,0008">3004200000112</case>
+    </switch>
+  </channel>
+  <!--网上银行EB-->
+  <channel id="EB" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="2001300000125">2001300000125</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000701">3001200000701</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3002100000105">3002100000105</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300001105">3001300001105</case>
+      <case value="3002300000109">3002300000109</case>
+      <case value="3002300000403">3002300000403</case>
+      <case value="3002300000404">3002300000404</case>
+      <case value="3002300000507">3002300000507</case>
+      <case value="3002300000321">3002300000321</case>
+      <case value="3002300001005">3002300001005</case>
+      <case value="3001100000204">3001100000204</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="3003200000405">3003200000405</case>
+      <case value="3002300000505">3002300000505</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="3001200000801">3001200000801</case>
+      <case value="2002200000109">2002200000109</case>
+      <case value="3001200000302">3001200000302</case>
+      <case value="3001100000304">3001100000304</case>
+      <case value="3001200001003">3001200001003</case>
+      <case value="3005200000107">3005200000107</case>
+      <case value="3001500000502">3001500000502</case>
+      <case value="5001300000204">5001300000204</case>
+      <case value="5001300000308">5001300000308</case>
+      <case value="3003200000406">3003200000406</case>
+      <case value="3001200000104">3001200000104</case>
+      <case value="3001300000906">3001300000906</case>
+      <case value="3005300000212">3005300000212</case>
+      <case value="2001200000602">2001200000602</case>
+      <case value="3001300000403">3001300000403</case>
+      <case value="3001300001501">3001300001501</case>
+      <case value="3005300000115">3005300000115</case>
+      <case value="3001300000327">3001300000327</case>
+      <case value="3003300000115">3003300000115</case>
+      <case value="3003300000114">3003300000114</case>
+      <case value="3003300000116">3003300000116</case>
+      <case value="3002300000218">3002300000218</case>
+      <!--新核心配套by yangxfj end-->
+      <!--晋惠宝余额理财平台-->
+      <case value="3005200000108">3005200000108</case>
+      <case value="3005200000109">3005200000109</case>
+      <case value="3005100000402">3005100000402</case>
+      <case value="3005200000403">3005200000403</case>
+      <case value="3005300000116">3005300000116</case>
+      <case value="3005300001601">3005300001601</case>
+      <case value="3005300000807">3005300000807</case>
+      <case value="3005300000213">3005300000213</case>
+      <case value="3005300000214">3005300000214</case>
+      <case value="3005300001104">3005300001104</case>
+      <case value="3001300000404">3001300000404</case>
+      <case value="3005200001001">3005200001001</case>
+      <case value="3005200001002">3005200001002</case>
+      <case value="3005200001003">3005200001003</case>
+      <case value="3005300001301">3005300001301</case>
+      <case value="3005100000403">3005100000403</case>
+      <case value="3005200000404">3005200000404</case>
+      <case value="3005200000405">3005200000405</case>
+      <case value="3005100000601">3005100000601</case>
+      <case value="3005100000602">3005100000602</case>
+      <case value="3005200000406">3005200000406</case>
+      <case value="3005200000114">3005200000114</case>
+      <case value="3005200000115">3005200000115</case>
+      <case value="3005200000410">3005200000410</case>
+      <case value="3005300000812">3005300000812</case>
+      <case value="3005300000129">3005300000129</case>
+      <case value="2001300000130">2001300000130</case>
+      <case value="3005300000903">3005300000903</case>
+      <case value="3005300000234">3005300000234</case>
+      <case value="3005300000237">3005300000237</case>
+      <case value="3005300000238">3005300000238</case>
+      <case value="3005300001011">3005300001011</case>
+      <case value="3005300001010">3005300001010</case>
+      <case value="3005100000211">3005100000211</case>
+      <case value="3005100000212">3005100000212</case>
+      <case value="3005200000504">3005200000504</case>
+      <case value="3005100000302">3005100000302</case>
+      <case value="3005300000233">3005300000233</case>
+      <case value="3005300001106">3005300001106</case>
+      <case value="3005300000130">3005300000130</case>
+      <case value="3005300000132">3005300000132</case>
+      <case value="3005300000131">3005300000131</case>
+      <case value="3005100000214">3005100000214</case>
+      <case value="3005200000604">3005200000604</case>
+      <case value="3005200000408">3005200000408</case>
+      <case value="3005200000116">3005200000116</case>
+      <case value="3005200000117">3005200000117</case>
+      <case value="3005200000702">3005200000702</case>
+      <case value="3005100000213">3005100000213</case>
+      <case value="3005300000904">3005300000904</case>
+      <case value="3005300000813">3005300000813</case>
+      <case value="3005300001208">3005300001208</case>
+      <case value="3005300000235">3005300000235</case>
+      <case value="3005300001107">3005300001107</case>
+      <case value="3005300000133">3005300000133</case>
+      <case value="3005300000134">3005300000134</case>
+      <case value="3005300000814">3005300000814</case>
+      <case value="3005300000135">3005300000135</case>
+      <case value="3005300001012">3005300001012</case>
+      <case value="3005300000136">3005300000136</case>
+      <case value="3005300000137">3005300000137</case>
+      <case value="3005300001209">3005300001209</case>
+      <case value="3005300001013">3005300001013</case>
+      <case value="3005300000236">3005300000236</case>
+      <case value="3005300001108">3005300001108</case>
+      <case value="3005300000138">3005300000138</case>
+      <case value="3005300000815">3005300000815</case>
+      <case value="3005200000806">3005200000806</case>
+      <case value="3005300000139">3005300000139</case>
+      <case value="3005200000505">3005200000505</case>
+      <case value="3005200000506">3005200000506</case>
+      <case value="3005300000811">3005300000811</case>
+      <case value="3005200000803">3005200000803</case>
+      <case value="3005100000404">3005100000404</case>
+      <case value="3005200000804">3005200000804</case>
+      <case value="3005300000124">3005300000124</case>
+      <case value="3005300000126">3005300000126</case>
+      <case value="3005300001009">3005300001009</case>
+      <case value="3005300000228">3005300000228</case>
+      <case value="3005300000230">3005300000230</case>
+      <case value="3005300000231">3005300000231</case>
+      <case value="3005300000225">3005300000225</case>
+      <case value="3005300000229">3005300000229</case>
+      <case value="3005300000125">3005300000125</case>
+      <case value="3005300000127">3005300000127</case>
+      <case value="3005300000232">3005300000232</case>
+      <case value="3005200000805">3005200000805</case>
+      <case value="3005200000113">3005200000113</case>
+      <case value="3005300000223">3005300000223</case>
+      <case value="3005300000810">3005300000810</case>
+      <case value="3005300000226">3005300000226</case>
+      <case value="3005300000222">3005300000222</case>
+      <case value="3005300000224">3005300000224</case>
+      <case value="3005300000128">3005300000128</case>
+      <case value="3005300001105">3005300001105</case>
+      <case value="3005300000227">3005300000227</case>
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <!--核心start-->
+      <case value="SVR_INQUIRY,1400,0104">3001300000402</case>
+      <case value="SVR_NONFINANCIAL,1200,0127">3001100000501</case>
+      <case value="SVR_INQUIRY,1400,0188">3001300000304</case>
+      <case value="SVR_INQUIRY,1400,0021">3001300000501</case>
+      <case value="SVR_INQUIRY,1400,0003">2001300000106</case>
+      <case value="SVR_INQUIRY,1400,0107">3001300000203</case>
+      <case value="SVR_INQUIRY,1400,0108">3001300000301</case>
+      <case value="SVR_INQUIRY,1400,0002">2001300000102</case>
+      <case value="SVR_INQUIRY,1400,0007">3001300000201</case>
+      <case value="SVR_INQUIRY,1400,0001">2001300000108</case>
+      <case value="SVR_INQUIRY,1400,0208">3001300000601</case>
+      <case value="SVR_INQUIRY,1400,2575">3002300000201</case>
+      <case value="SVR_INQUIRY,1400,2589">3002300000301</case>
+      <case value="SVR_INQUIRY,1400,0193">3001300000701</case>
+      <case value="SVR_INQUIRY,1400,0192">3004300000501</case>
+      <case value="SVR_INQUIRY,1400,2591">3002300000302</case>
+      <case value="SVR_INQUIRY,1400,2540">3002300000303</case>
+      <case value="SVR_INQUIRY,1400,2585">3002300000401</case>
+      <case value="SVR_INQUIRY,1400,2590">3002300000402</case>
+      <case value="SVR_INQUIRY,1400,2527">3002300000304</case>
+      <case value="SVR_INQUIRY,1400,1101">3004300000601</case>
+      <case value="SVR_INQUIRY,1400,0125">3001300000801</case>
+      <case value="SVR_INQUIRY,1400,0111">3001300000901</case>
+      <case value="SVR_INQUIRY,1400,0405">3001300000902</case>
+      <case value="SVR_INQUIRY,1400,0101">3001300001001</case>
+      <case value="SVR_INQUIRY,1400,0201">3001300001002</case>
+      <case value="SVR_INQUIRY,1400,0202">3001300001003</case>
+      <case value="SVR_INQUIRY,1400,0408">3001300000903</case>
+      <case value="SVR_INQUIRY,1400,0203">3001300000204</case>
+      <case value="SVR_INQUIRY,1400,0207">3001300000904</case>
+      <case value="SVR_INQUIRY,1400,0206">3001300000205</case>
+      <case value="SVR_INQUIRY,1400,0212">3001200000301</case>
+      <case value="SVR_INQUIRY,1400,0143">3001300001101</case>
+      <case value="SVR_INQUIRY,1400,0507">3001300001102</case>
+      <case value="SVR_INQUIRY,1400,0018">2001300000109</case>
+      <case value="SVR_INQUIRY,1400,0411">3005300000101</case>
+      <case value="SVR_INQUIRY,1400,0178">3001300000306</case>
+      <case value="SVR_INQUIRY,1400,0401">3001300001004</case>
+      <case value="SVR_INQUIRY,1400,0211">3001300000307</case>
+      <case value="SVR_INQUIRY,1400,0209">3001100000601</case>
+      <case value="SVR_INQUIRY,1400,1800">3004200000401</case>
+      <case value="SVR_FINANCIAL,1000,0103">3001100000201</case>
+      <case value="SVR_INQUIRY,1400,7409">3005300000102</case>
+      <case value="SVR_INQUIRY,1400,7404">3005300000201</case>
+      <case value="SVR_INQUIRY,1400,7400">3005300000202</case>
+      <case value="SVR_INQUIRY,1400,7405">3005300000203</case>
+      <case value="SVR_INQUIRY,1400,1601">3002300000601</case>
+      <case value="SVR_INQUIRY,1400,2908">3002300000501</case>
+      <case value="SVR_INQUIRY,1400,9402">1003300000104</case>
+      <case value="SVR_FINANCIAL,1000,8005">3004100000201</case>
+      <case value="SVR_FINANCIAL,1000,1601">3002100000101</case>
+      <case value="SVR_FINANCIAL,1000,0202">3001100000702</case>
+      <case value="SVR_NONFINANCIAL,1200,0206">3001100000701</case>
+      <case value="SVR_NONFINANCIAL,1200,0121">2001300000201</case>
+      <case value="SVR_NONFINANCIAL,1200,9400">1003200000205</case>
+      <case value="SVR_NONFINANCIAL,1200,0108">3001200000101</case>
+      <case value="SVR_NONFINANCIAL,1200,0205">3001100000403</case>
+      <case value="SVR_NONFINANCIAL,1200,0105">3001200000202</case>
+      <case value="SVR_NONFINANCIAL,1200,0154">1003200000101</case>
+      <case value="SVR_NONFINANCIAL,1200,0502">1003200000201</case>
+      <case value="SVR_NONFINANCIAL,1200,0503">1003200000202</case>
+      <case value="SVR_NONFINANCIAL,1200,0508">1003200000203</case>
+      <case value="SVR_NONFINANCIAL,1200,0509">1003200000204</case>
+      <case value="SVR_INQUIRY,1400,0501">1003300000103</case>
+      <case value="SVR_INQUIRY,1400,0510">5001300000202</case>
+      <case value="SVR_NONFINANCIAL,1200,0401">3003200000301</case>
+      <case value="SVR_NONFINANCIAL,1200,6001">3004200000501</case>
+      <case value="SVR_NONFINANCIAL,1200,0412">3005200000101</case>
+      <case value="SVR_NONFINANCIAL,1200,0413">3005200000102</case>
+      <case value="SVR_INQUIRY,1400,8058">3004300000303</case>
+      <case value="SVR_INQUIRY,1400,8055">3004300000302</case>
+      <case value="SVR_INQUIRY,1400,0113">3001300001201</case>
+      <case value="SVR_FILE,1220,0144">3004300000207</case>
+      <case value="SVR_FINANCIAL,1000,0106">3001100000801</case>
+      <case value="SVR_INQUIRY,1400,7406">3005300000103</case>
+      <case value="SVR_INQUIRY,1400,6099">3001300000309</case>
+      <case value="SVR_NONFINANCIAL,1200,9800">3002200000101</case>
+      <case value="SVR_INQUIRY,1400,9802">3002300000701</case>
+      <case value="SVR_INQUIRY,1400,9803">3002200000205</case>
+      <case value="SVR_INQUIRY,1400,0181">3001300000206</case>
+      <case value="SVR_INQUIRY,1400,1666">3004300000701</case>
+      <case value="SVR_INQUIRY,1400,1667">3004300000702</case>
+      <case value="SVR_INQUIRY,1400,7415">3005300000204</case>
+      <case value="SVR_INQUIRY,1400,7410">3005300000205</case>
+      <case value="SVR_INQUIRY,1400,0028">3001300000207</case>
+      <case value="SVR_INQUIRY,1400,0035">3001300000208</case>
+      <case value="SVR_INQUIRY,1400,5416">3004300000208</case>
+      <case value="SVR_NONFINANCIAL,1200,5417">3004100000501</case>
+      <case value="SVR_NONFINANCIAL,1200,1666">3004200000601</case>
+      <case value="SVR_NONFINANCIAL,1200,1667">3004200000602</case>
+      <case value="SVR_NONFINANCIAL,1200,6100">3001200000203</case>
+      <case value="SVR_NONFINANCIAL,1200,9801">3002100000301</case>
+      <case value="SVR_FINANCIAL,1000,0105">5001100000102</case>
+      <case value="SVR_NONFINANCIAL,1200,0101">3001200000204</case>
+      <case value="SVR_FILE,1220,6005">3004200000208</case>
+      <case value="SVR_INQUIRY,1400,2581">3002300000502</case>
+      <case value="SVR_INQUIRY,1400,1603">2001200000401</case>
+      <case value="SVR_FINANCIAL,1000,0104">5001200000201</case>
+      <case value="SVR_INQUIRY,1400,0707">3009300000101</case>
+      <case value="SVR_INQUIRY,1400,0703">3002300000901</case>
+      <case value="SVR_NONFINANCIAL,1200,0705">3002200000102</case>
+      <case value="SVR_INQUIRY,1400,0708">3002300000801</case>
+      <case value="SVR_FINANCIAL,1000,2918">3002100000102</case>
+      <case value="SVR_FINANCIAL,1000,2921">3002100000203</case>
+      <case value="SVR_FINANCIAL,1000,2919">3002100000204</case>
+      <case value="SVR_INQUIRY,1400,2535">3002300000306</case>
+      <case value="SVR_INQUIRY,1400,2923">3002300000307</case>
+      <case value="SVR_NONFINANCIAL,1200,9901">3001200000205</case>
+      <case value="SVR_INQUIRY,1400,1701">3002300000104</case>
+      <case value="SVR_INQUIRY,1400,2588">3002300000308</case>
+      <case value="SVR_INQUIRY,1400,1702">2001300000402</case>
+      <case value="SVR_INQUIRY,1400,1703">2001300000403</case>
+      <case value="SVR_INQUIRY,1400,1704">2001300000404</case>
+      <!--核心end-->
+      <!--借记卡start-->
+      <case value="SVR_CARD,1400,6035">3003300000101</case>
+      <case value="SVR_CARD,1200,6021">3003200000101</case>
+      <case value="SVR_CARD,1400,6009">3003300000102</case>
+      <case value="SVR_CARD,1000,6006">3001100000202</case>
+      <case value="SVR_CARD,1400,6012">3001300000202</case>
+      <case value="SVR_CARD,1400,6013">3001300000401</case>
+      <case value="SVR_CARD,1400,6014">3003300000301</case>
+      <case value="SVR_CARD,1200,6019">3001100000502</case>
+      <case value="SVR_CARD,1400,6067">3001300000305</case>
+      <case value="SVR_CARD,1400,6015">2001300000107</case>
+      <case value="SVR_CARD,1400,6068">3003300000103</case>
+      <case value="SVR_CARD,1200,6065">1003200000102</case>
+      <case value="SVR_CARD,1400,6039">1003300000102</case>
+      <case value="SVR_CARD,1000,6003">3003100000203</case>
+      <case value="SVR_CARD,1400,6070">3001300000308</case>
+      <case value="SVR_CARD,1400,6080">3003300000302</case>
+      <case value="SVR_CARD,1000,6005">3003100000204</case>
+      <case value="SVR_CARD,1400,6025">3004300000206</case>
+      <case value="SVR_CARD,1000,0104">5001100000101</case>
+      <case value="SVR_CARD,1200,0590">3003200000402</case>
+      <case value="SVR_CARD,1400,0590">3003300000106</case>
+      <case value="SVR_CARD,1400,0591">3003300000303</case>
+      <case value="SVR_CARD,1400,6111">3003300000105</case>
+      <case value="SVR_CARD,1200,6111">3003200000401</case>
+      <case value="SVR_CARD,1400,6041">3003300000104</case>
+      <case value="SVR_CARD,1200,6049">3003200000102</case>
+      <case value="SVR_CARD,1200,6032">3003200000201</case>
+      <case value="SVR_CARDFILE,1220,1110">3003100000301</case>
+      <case value="SVR_CARD,1000,0204">3003100000205</case>
+      <case value="SVR_CARDFILE,1220,1112">3003100000302</case>
+      <!--借记卡end-->
+      <!--老中间业务start-->
+      <case value="SVR_ONLINE,5221,1003">3006100000101</case>
+      <case value="SVR_ONLINE,5221,1004">3006100000102</case>
+      <case value="SVR_COMMON,5003,1005">3006300000301</case>
+      <case value="SVR_COMMON,5001,1003">3006300000302</case>
+      <case value="SVR_AGENT,5404,1000">3006300000401</case>
+      <case value="SVR_AGENT,5404,1001">3006300000402</case>
+      <case value="SVR_AGENT,5406,1000">3006400000101</case>
+      <case value="SVR_AGENT,5406,1003">3006200000301</case>
+      <case value="SVR_AGENT,5406,1005">3006200000302</case>
+      <case value="SVR_AGENT,5406,1007">3006200000303</case>
+      <case value="SVR_AGENT,5415,1000">3006200000304</case>
+      <case value="SVR_AGENT,5400,1004">3006200000401</case>
+      <case value="SVR_AGENT,5403,1000">3006300000403</case>
+      <case value="SVR_AGENT,5402,1000">3006300000404</case>
+      <case value="SVR_AGENT,5401,1000">3006200000402</case>
+      <case value="SVR_ONLINE,5250,1000">3006300000501</case>
+      <case value="SVR_AGENT,5400,1006">3006200000403</case>
+      <case value="SVR_COMMON,5001,1005">3006300000303</case>
+      <case value="SVR_ONLINE,5220,1003">3006300000601</case>
+      <case value="SVR_ONLINE,5220,1004">3006300000602</case>
+      <case value="SVR_AGENT,5406,1008">3006200000305</case>
+      <!--老中间业务end-->
+      <!--电子国债start-->
+      <case value="SVR_BOND,5101,1026">3005300000301</case>
+      <case value="SVR_BOND,5101,1000">3005200000201</case>
+      <case value="SVR_BOND,5101,1001">3005200000202</case>
+      <case value="SVR_BOND,5101,1030">3005100000101</case>
+      <case value="SVR_BOND,5101,1031">3005100000102</case>
+      <case value="SVR_BOND,5101,1023">3005300000701</case>
+      <case value="SVR_BOND,5101,1024">3005300000602</case>
+      <case value="SVR_BOND,5101,1025">3005300000603</case>
+      <case value="SVR_BOND,5101,1009">3005200000301</case>
+      <case value="SVR_BOND,5101,1010">2001200000101</case>
+      <case value="SVR_BOND,5101,1019">3005300000604</case>
+      <case value="SVR_BOND,5101,1039">3005400000101</case>
+      <case value="SVR_BOND,5101,1043">3005400000102</case>
+      <case value="SVR_BOND,5101,1042">2002300000101</case>
+      <case value="SVR_BOND,5101,1016">2002200000101</case>
+      <case value="SVR_BOND,5101,1041">2002200000102</case>
+      <case value="SVR_BOND,5101,1018">3005300000401</case>
+      <case value="SVR_BOND,5101,1017">3005300000501</case>
+      <case value="SVR_BOND,5101,1022">3005300000601</case>
+      <!--电子国债end-->
+      <!--超网start-->
+      <case value="SVR_IBPS,1400,1902">3004300000301</case>
+      <case value="SVR_IBPS,1400,1908">3004300000205</case>
+      <case value="SVR_IBPS,1200,1901">3004100000302</case>
+      <case value="SVR_IBPS,1400,1901">3004300000304</case>
+      <case value="SVR_IBPS,1400,106023">3001300000303</case>
+      <case value="SVR_IBPS,1400,106004">2001300000301</case>
+      <case value="SVR_IBPS,1400,1903">2001300000302</case>
+      <case value="SVR_IBPS,1400,1904">2001300000303</case>
+      <case value="SVR_IBPS,1400,1905">2001300000304</case>
+      <case value="SVR_IBPS,1200,1902">3004100000403</case>
+      <case value="SVR_IBPS,1200,1903">3001300000312</case>
+      <case value="SVR_IBPS,1200,1904">1003200000208</case>
+      <case value="SVR_IBPS,1200,1905">3004400000101</case>
+      <case value="SVR_IBPS,1200,1907">3001300000313</case>
+      <case value="SVR_IBPS,1200,1908">1003200000209</case>
+      <case value="SVR_IBPS,1200,106086">2001200000201</case>
+      <case value="SVR_IBPS,1400,106021">3001300000314</case>
+      <case value="SVR_IBPS,1200,106064">2001200000301</case>
+      <case value="SVR_IBPS,1200,106065">2001200000302</case>
+      <case value="SVR_IBPS,1200,106066">3001300000317</case>
+      <case value="SVR_IBPS,1200,106067">2001200000303</case>
+      <case value="SVR_IBPS,1200,106068">2001200000304</case>
+      <case value="SVR_IBPS,1400,106064">3001300000210</case>
+      <case value="SVR_IBPS,1400,106101">2001300000401</case>
+      <case value="SVR_IBPS,1200,106207">1003300000119</case>
+      <!--超网end-->
+      <!--二代支付start-->
+      <case value="SVR_PTS2,1200,8700">2001300000103</case>
+      <case value="SVR_INQUIRY,1400,0134">5001300000203</case>
+      <case value="SVR_NONFINANCIAL,1200,1101">3004100000404</case>
+      <case value="SVR_CARD,1200,1101">3004100000405</case>
+      <case value="SVR_NONFINANCIAL,1200,1211">3004100000406</case>
+      <case value="SVR_CARD,1200,1211">3004100000407</case>
+      <!--二代支付end-->
+      <!--信用卡start-->
+      <case value="CREDIT_FIN,1000,8023">3003200000501</case>
+      <case value="CREDIT_FIN,1000,7007">3003100000501</case>
+      <case value="CREDIT_FIN,1000,7009">3003100000401</case>
+      <case value="CREDIT_FIN,1000,7005">3003100000502</case>
+      <case value="CREDIT_MANAGE,1200,7102">3003200000203</case>
+      <case value="CREDIT_MANAGE,1200,7101">3003200000202</case>
+      <case value="CREDIT_MANAGE,1200,8201">3003200000204</case>
+      <case value="CREDIT_MANAGE,1200,8202">3003200000601</case>
+      <case value="CREDIT_MANAGE,1200,8203">3003200000701</case>
+      <case value="CREDIT_MANAGE,1200,8204">3003200000702</case>
+      <case value="CREDIT_MANAGE,1200,8205">3003200000703</case>
+      <case value="CREDIT_MANAGE,1200,7105">3003200000704</case>
+      <case value="CREDIT_MANAGE,1200,7201">3003200000103</case>
+      <case value="CREDIT_MANAGE,1200,7103">3003200000104</case>
+      <case value="CREDIT_MANAGE,1200,8207">3003200000802</case>
+      <case value="CREDIT_MANAGE,1200,8214">2002200000201</case>
+      <case value="CREDIT_MANAGE,1200,8212">3002200000301</case>
+      <case value="CREDIT_MANAGE,1200,8213">3002200000302</case>
+      <case value="CREDIT_MANAGE,1200,8206">3003200000403</case>
+      <case value="CREDIT_MANAGE,1200,8208">3003200000801</case>
+      <case value="CREDIT_MANAGE,1200,8215">3003200000602</case>
+      <case value="CREDIT_MANAGE,1200,8217">3003200000706</case>
+      <case value="CREDIT_MANAGE,1200,8220">3003200001001</case>
+      <case value="CREDIT_MANAGE,1200,8210">3003200000901</case>
+      <case value="CREDIT_MANAGE,1200,8209">3003200000705</case>
+      <case value="CREDIT_MANAGE,1200,8221">3003200000205</case>
+      <case value="CREDIT_MANAGE,1200,7202">3003200000105</case>
+      <case value="CREDIT_MANAGE,1200,8218">3003200000206</case>
+      <case value="CREDIT_QUERY,1400,7122">3003300000107</case>
+      <case value="CREDIT_QUERY,1400,7108">3003300000202</case>
+      <case value="CREDIT_QUERY,1400,7112">3003300000401</case>
+      <case value="CREDIT_QUERY,1400,7111">3003300000402</case>
+      <case value="CREDIT_QUERY,1400,7133">3003300000403</case>
+      <case value="CREDIT_QUERY,1400,7129">3003300000404</case>
+      <case value="CREDIT_QUERY,1400,7127">3003300000405</case>
+      <case value="CREDIT_QUERY,1400,7128">3003300000406</case>
+      <case value="CREDIT_QUERY,1400,7131">2002300000201</case>
+      <case value="CREDIT_QUERY,1400,7125">3003300000201</case>
+      <case value="CREDIT_QUERY,1400,7130">3002300000202</case>
+      <case value="CREDIT_QUERY,1400,7126">3003300000407</case>
+      <case value="CREDIT_QUERY,1400,7109">3003300000108</case>
+      <case value="CREDIT_QUERY,1400,7110">3003300000408</case>
+      <case value="CREDIT_QUERY,1400,8222">3003300000203</case>
+      <case value="CREDIT_QUERY,1400,7115">3003300000109</case>
+      <case value="CREDIT_QUERY,1400,7132">2002300000202</case>
+      <case value="CREDIT_QUERY,1400,7134">3003300000409</case>
+      <case value="CREDIT_MANAGE,1200,7104">3003200000106</case>
+      <case value="CREDIT_MANAGE,1200,7106">3003100000601</case>
+      <case value="CREDIT_QUERY,1400,7116">3003300000204</case>
+      <case value="CREDIT_MANAGE,1200,8226">3003200000707</case>
+      <case value="CREDIT_QUERY,1400,7135">3003300000110</case>
+      <case value="CREDIT_MANAGE,1200,8225">3003200000107</case>
+      <case value="CREDIT_QUERY,1400,8228">3003300000205</case>
+      <case value="CREDIT_FIN,1000,8033">3003100000103</case>
+      <case value="CREDIT_FIN,1000,8034">3003100000104</case>
+      <case value="CREDIT_MANAGE,1200,8211">3003200000108</case>
+      <case value="CREDIT_QUERY,1400,8241">3003300000113</case>
+      <!--信用卡end-->
+      <!--银联商务前置start-->
+      <case value="SVR_BCUPS,1200,140301">3006300000605</case>
+      <case value="SVR_BCUPS,1200,140302">3006100000104</case>
+      <case value="SVR_BCUPS,1200,140303">3006300000606</case>
+      <case value="SVR_BCUPS,1200,140304">3006400000201</case>
+      <case value="SVR_BCUPS,1200,140501">3006300000607</case>
+      <case value="SVR_BCUPS,1200,140502">3006100000105</case>
+      <case value="SVR_BCUPS,1200,140503">3006400000202</case>
+      <case value="SVR_BCUPS,1200,140601">3006300000608</case>
+      <case value="SVR_BCUPS,1200,140602">3006100000106</case>
+      <case value="SVR_BCUPS,1200,140603">3006400000203</case>
+      <case value="SVR_BCUPS,1200,141401">3006300000609</case>
+      <case value="SVR_BCUPS,1200,141402">3006100000107</case>
+      <case value="SVR_BCUPS,1200,141403">3006400000204</case>
+      <case value="SVR_BCUPS,1200,141601">3006300000610</case>
+      <case value="SVR_BCUPS,1200,141602">3006100000108</case>
+      <case value="SVR_BCUPS,1200,141603">3006400000205</case>
+      <case value="SVR_BCUPS,1200,141301">3006300000611</case>
+      <case value="SVR_BCUPS,1200,141302">3006100000109</case>
+      <case value="SVR_BCUPS,1200,141304">3006400000206</case>
+      <case value="SVR_BCUPS,1200,140901">3006300000612</case>
+      <case value="SVR_BCUPS,1200,140902">3006100000110</case>
+      <case value="SVR_BCUPS,1200,140903">3006400000207</case>
+      <case value="SVR_BCUPS,1200,141001">3006300000613</case>
+      <case value="SVR_BCUPS,1200,141002">3006100000111</case>
+      <case value="SVR_BCUPS,1200,141003">3006400000208</case>
+      <case value="SVR_BCUPS,1200,140305">3006100000112</case>
+      <!--银联商务前置end-->
+      <!--老柜面start-->
+      <case value="TLR_TRALBOX,1400,12013">5001300000401</case>
+      <case value="TLR_TRALBOX,1400,13006">5001300000302</case>
+      <case value="TLR_TRALBOX,1400,13021">5001300000402</case>
+      <case value="TLR_TRALBOX,1200,13024">5001200000302</case>
+      <!--转核-->
+      <case value="TLR_TRALBOX,1400,13007">5001300000304</case>
+      <case value="TLR_TRALBOX,1400,13010">5001300000305</case>
+      <case value="TLR_TRALBOX,1200,13022">5001200000303</case>
+      <!--老柜面end-->
+      <!--无卡支付start-->
+      <case value="SVR_NCPAY,2300,2301">3004300000801</case>
+      <case value="SVR_NCPAY,2300,2302">3004200000701</case>
+      <!--无卡支付end-->
+      <!--大同城start-->
+      <case value="SVR_TC,2000,1007">3001300000316</case>
+      <!--大同城end-->
+      <!--渠道前置start-->
+      <case value="SVR_JSH,2000,1901">3007300000101</case>
+      <case value="SVR_JSH,2000,1902">3007200000101</case>
+      <case value="SVR_JSH,2000,1903">3007200000102</case>
+      <case value="SVR_JSH,2000,1904">3007300000102</case>
+      <case value="SVR_JSH,2000,1905">3007300000103</case>
+      <case value="SVR_JSH,2000,1906">3007200000103</case>
+      <case value="SVR_JSH,2000,1907">3007200000104</case>
+      <case value="SVR_JSH,2000,1908">3007300000104</case>
+      <case value="SVR_JSH,2000,1909">3007200000105</case>
+      <case value="SVR_JSH,2000,1910">5001300000501</case>
+      <case value="SVR_JSH,2000,1911">3007100000101</case>
+      <case value="SVR_JSH,2000,1912">3007100000102</case>
+      <case value="SVR_QUEUE,3321,0001">2002300000102</case>
+      <case value="SVR_QUEUE,3321,0002">2002300000103</case>
+      <case value="SVR_QUEUE,3321,0003">2002300000104</case>
+      <case value="SVR_QUEUE,3321,0004">2002200000103</case>
+      <case value="SVR_QUEUE,3321,0005">2002200000104</case>
+      <case value="SVR_QUEUE,3321,0006">2002300000105</case>
+      <case value="SVR_QUEUE,3321,0007">2002300000106</case>
+      <case value="SVR_QUEUE,3321,0008">2002200000105</case>
+      <case value="SVR_QUEUE,3321,0009">2002300000107</case>
+      <case value="SVR_QUEUE,3321,0010">2002200000106</case>
+      <case value="SVR_QUEUE,3321,0011">2002200000107</case>
+      <case value="SVR_QUEUE,3320,0001">2002300000108</case>
+      <case value="SVR_QUEUE,3320,0002">2002300000109</case>
+      <case value="SVR_QUEUE,3320,0003">2002300000110</case>
+      <case value="SVR_QUEUE,3320,0004">2002300000111</case>
+      <case value="SVR_QUEUE,3320,0005">2002200000108</case>
+      <!--渠道前置end-->
+      <!--云闪付start-->
+      <case value="SVR_NCPAY,1400,6606">3004200000702</case>
+      <!--云闪付end-->
+    </switch>
+  </channel>
+  <!--新柜面UIS-->
+  <channel id="UIS" type="dynamic">
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_DBANK,1400,8113">3001300000311</case>
+      <case value="SVR_DBANK,1400,8114">3001200000401</case>
+      <!--基金系统start-->
+      <case value="SVR_EBANK,1200,8006">3005200000103</case>
+      <case value="SVR_EBANK,1200,8002">3005200000104</case>
+      <case value="SVR_EBANK,1200,8003">3005200000401</case>
+      <case value="SVR_EBANK,1200,8004">3005300000801</case>
+      <case value="SVR_EBANK,1400,8107">3005300000802</case>
+      <case value="SVR_EBANK,1400,8108">3005300000104</case>
+      <case value="SVR_EBANK,1200,8005">2001300000110</case>
+      <case value="SVR_ESB,FUND,0001">3005300000207</case>
+      <case value="SVR_ESB,FUND,0002">3005300000208</case>
+      <case value="SVR_ESB,FUND,0003">3005300001001</case>
+      <case value="SVR_ESB,FUND,0004">3005300001002</case>
+      <case value="SVR_ESB,FUND,0005">3005100000201</case>
+      <case value="SVR_ESB,FUND,0006">3005100000202</case>
+      <case value="SVR_ESB,FUND,0007">3005200000501</case>
+      <case value="SVR_ESB,FUND,0008">3005100000301</case>
+      <case value="SVR_ESB,FUND,0009">3005300000209</case>
+      <case value="SVR_ESB,FUND,0010">3005300001101</case>
+      <case value="SVR_ESB,FUND,0011">3005300000105</case>
+      <case value="SVR_ESB,FUND,0012">3005300000106</case>
+      <case value="SVR_ESB,FUND,0013">3005300000107</case>
+      <case value="SVR_ESB,FUND,0014">3005100000203</case>
+      <case value="SVR_ESB,FUND,0015">3005200000601</case>
+      <case value="SVR_ESB,FUND,0016">3005200000402</case>
+      <case value="SVR_ESB,FUND,0018">3005200000105</case>
+      <case value="SVR_ESB,FUND,0019">3005200000106</case>
+      <case value="SVR_ESB,FUND,0020">3005200000701</case>
+      <case value="SVR_ESB,FUND,0021">3005100000204</case>
+      <case value="SVR_ESB,FUND,0022">3005300000902</case>
+      <case value="SVR_ESB,FUND,0023">3005300000803</case>
+      <case value="SVR_ESB,FUND,0024">3005300001201</case>
+      <case value="SVR_ESB,FUND,0025">3005300000210</case>
+      <case value="SVR_ESB,FUND,0026">3005300001102</case>
+      <case value="SVR_ESB,FUND,0027">3005300000108</case>
+      <case value="SVR_ESB,FUND,0028">3005300000109</case>
+      <case value="SVR_ESB,FUND,0029">3005300000804</case>
+      <case value="SVR_ESB,FUND,0030">3005300000110</case>
+      <case value="SVR_ESB,FUND,0031">3005300001003</case>
+      <case value="SVR_ESB,FUND,0032">3005300000111</case>
+      <case value="SVR_ESB,FUND,0033">3005300000112</case>
+      <case value="SVR_ESB,FUND,0034">3005300001202</case>
+      <case value="SVR_ESB,FUND,0035">3005300001004</case>
+      <case value="SVR_ESB,FUND,0036">3005300000211</case>
+      <case value="SVR_ESB,FUND,0037">3005300001103</case>
+      <case value="SVR_ESB,FUND,0038">3005300000113</case>
+      <case value="SVR_ESB,FUND,0039">3005300000805</case>
+      <case value="SVR_ESB,FUND,0040">3005200000801</case>
+      <case value="SVR_ESB,FUND,0041">3005300000114</case>
+      <case value="SVR_ESB,FUND,0042">3005200000502</case>
+      <case value="SVR_ESB,FUND,0043">3005200000503</case>
+      <case value="SVR_ESB,FUND,0044">3005300000806</case>
+      <!--基金系统end-->
+      <!--反向Router系统start-->
+      <case value="SVR_EBANK,1200,8012">2001300000111</case>
+      <case value="SVR_EBANK,1200,8017">6001200000201</case>
+      <case value="SVR_EBANK,1200,8016">6001200000102</case>
+      <case value="SVR_EBANK,1200,8015">6001200000101</case>
+      <case value="SVR_EBANK,1200,8018">2001300000112</case>
+      <case value="SVR_EBANK,1200,8020">1003200000206</case>
+      <case value="SVR_EBANK,1200,8014">1003200000207</case>
+      <case value="SVR_EBANK,1200,8001">2001200000102</case>
+      <case value="SVR_ESB,RRS,0001">1003200000106</case>
+      <case value="SVR_ESB,RRS,0002">1003300000201</case>
+      <case value="SVR_ESB,RRS,0003">2001300000118</case>
+      <case value="SVR_ESB,RRS,0004">1003300000502</case>
+      <case value="SVR_ESB,RRS,0005">2001300000119</case>
+      <case value="SVR_ESB,RRS,0006">1003200000107</case>
+      <case value="SVR_ESB,RRS,0007">1003300000202</case>
+      <case value="SVR_ESB,RRS,0008">1003300000501</case>
+      <case value="SVR_ESB,RRS,0009">1003200000108</case>
+      <case value="SVR_ESB,RRS,0010">1003300000301</case>
+      <case value="SVR_ESB,RRS,0011">1003200000301</case>
+      <case value="SVR_ESB,RRS,0012">2001200000501</case>
+      <case value="SVR_ESB,RRS,0013">1003300000108</case>
+      <case value="SVR_ESB,RRS,0014">1003200000212</case>
+      <case value="SVR_ESB,RRS,0015">1003300000401</case>
+      <case value="SVR_ESB,RRS,0016">1003200000401</case>
+      <case value="SVR_ESB,RRS,0017">1003300000302</case>
+      <case value="SVR_ESB,RRS,0018">1003300000503</case>
+      <case value="SVR_ESB,RRS,0019">1003300000504</case>
+      <case value="SVR_ESB,RRS,0020">1003200000501</case>
+      <case value="SVR_ESB,RRS,0021">1003300000109</case>
+      <case value="SVR_ESB,RRS,0022">1003300000110</case>
+      <case value="SVR_ESB,RRS,0023">6001200000202</case>
+      <case value="SVR_ESB,RRS,0024">1003200000601</case>
+      <case value="SVR_ESB,RRS,0025">1003300000111</case>
+      <case value="SVR_ESB,RRS,0026">1003200000213</case>
+      <case value="SVR_ESB,RRS,0027">1003200000602</case>
+      <case value="SVR_ESB,RRS,0028">1003300000112</case>
+      <case value="SVR_ESB,RRS,0029">1003200000214</case>
+      <case value="SVR_ESB,RRS,0030">1003300000601</case>
+      <case value="SVR_ESB,RRS,0031">1003200000701</case>
+      <case value="SVR_ESB,RRS,0032">1003300000113</case>
+      <case value="SVR_ESB,RRS,0033">1003300000114</case>
+      <case value="SVR_ESB,RRS,0034">1003300000115</case>
+      <case value="SVR_ESB,RRS,0035">1003200000215</case>
+      <case value="SVR_ESB,RRS,0036">1003200000109</case>
+      <case value="SVR_ESB,RRS,0037">1003300000116</case>
+      <case value="SVR_ESB,RRS,0038">1003200000110</case>
+      <case value="SVR_ESB,RRS,0039">1003200000216</case>
+      <case value="SVR_ESB,RRS,0040">1003200000217</case>
+      <case value="SVR_ESB,RRS,0041">1003200000218</case>
+      <case value="SVR_ESB,RRS,0042">1003300000505</case>
+      <case value="SVR_ESB,RRS,0043">1003300000117</case>
+      <case value="SVR_ESB,RRS,0044">1003200000219</case>
+      <case value="SVR_ESB,RRS,0045">1003300000402</case>
+      <case value="SVR_ESB,RRS,0046">1003300000403</case>
+      <case value="SVR_ESB,RRS,0047">1003300000404</case>
+      <case value="SVR_ESB,RRS,0048">6001300000101</case>
+      <case value="SVR_ESB,RRS,0049">2001300000121</case>
+      <case value="SVR_ESB,RRS,0050">1003300000405</case>
+      <case value="SVR_ESB,RRS,0051">3006300000406</case>
+      <case value="SVR_ESB,RRS,0052">1003300000121</case>
+      <case value="SVR_ESB,RRS,0053">6001200000203</case>
+      <case value="SVR_ESB,RRS,0054">1003200000220</case>
+      <case value="SVR_ESB,RRS,0055">1003300000203</case>
+      <case value="SVR_ESB,RRS,0056">1003300000204</case>
+      <case value="SVR_ESB,RRS,0057">1003200000402</case>
+      <case value="SVR_ESB,RRS,0058">1003300000205</case>
+      <case value="SVR_ESB,RRS,0059">1003300000206</case>
+      <case value="SVR_ESB,RRS,0060">1003200000801</case>
+      <case value="SVR_ESB,RRS,0061">1003300000122</case>
+      <case value="SVR_ESB,RRS,0062">1003300000207</case>
+      <case value="SVR_ESB,RRS,0063">1003200000802</case>
+      <case value="SVR_ESB,RRS,0064">1003300000208</case>
+      <case value="SVR_ESB,RRS,0065">1003200000803</case>
+      <case value="SVR_ESB,RRS,0066">1003200000804</case>
+      <case value="SVR_ESB,RRS,0067">1003300000123</case>
+      <case value="SVR_ESB,RRS,0068">1003300000124</case>
+      <case value="SVR_ESB,RRS,0069">1003300000125</case>
+      <case value="SVR_ESB,RRS,0070">1003200000805</case>
+      <case value="SVR_ESB,RRS,0071">1003300000126</case>
+      <case value="SVR_ESB,RRS,0072">1003300000406</case>
+      <case value="SVR_ESB,RRS,0073">1003300000127</case>
+      <case value="SVR_ESB,RRS,0074">1003300000128</case>
+      <case value="SVR_ESB,RRS,0075">2001300000122</case>
+      <case value="SVR_ESB,RRS,0076">2001200000108</case>
+      <case value="SVR_ESB,RRS,0077">2001200000109</case>
+      <case value="SVR_ESB,RRS,0078">2001300000123</case>
+      <case value="SVR_ESB,RRS,0079">2001200000110</case>
+      <case value="SVR_ESB,RRS,0080">2001200000111</case>
+      <case value="SVR_ESB,RRS,0081">2001200000112</case>
+      <case value="SVR_ESB,RRS,0082">2001200000306</case>
+      <case value="SVR_ESB,RRS,0083">6001200000204</case>
+      <case value="SVR_ESB,RRS,0084">6001200000205</case>
+      <case value="SVR_ESB,RRS,0085">6001200000206</case>
+      <case value="SVR_ESB,RRS,0086">6001200000207</case>
+      <case value="SVR_ESB,RRS,0087">1003200000603</case>
+      <case value="SVR_ESB,RRS,0088">1003200000111</case>
+      <case value="SVR_ESB,RRS,0089">1003300000129</case>
+      <case value="SVR_ESB,RRS,0090">1003200000221</case>
+      <case value="SVR_ESB,RRS,0091">6001300000102</case>
+      <case value="SVR_ESB,RRS,0092">6001200000208</case>
+      <case value="SVR_ESB,RRS,0093">1003200000222</case>
+      <!--反向Router系统end-->
+      <!--云闪付start-->
+      <case value="SVR_NCPAY,1400,6620">3003300000111</case>
+      <case value="SVR_NCPAY,1400,6622">3003200000207</case>
+      <case value="SVR_NCPAY,1400,6627">3003200000404</case>
+      <case value="SVR_NCPAY,1400,6621">3003300000112</case>
+      <case value="SVR_NCPAY,1400,6606">3004200000702</case>
+      <case value="SVR_NCPAY,1400,6607">3004300000802</case>
+      <!--云闪付end-->
+      <!--印控仪start-->
+      <case value="SVR_ESB,ESMS,0001">5001200000501</case>
+      <case value="SVR_ESB,ESMS,0002">5001200000502</case>
+      <case value="SVR_ESB,ESMS,0003">5001300000701</case>
+      <!--印控仪end-->
+      <!--支付风险控制start-->
+      <case value="SVR_ESB,PRCS,0001">4001200000101</case>
+      <!--支付风险控制end-->
+      <!--电子票据start-->
+      <case value="SVR_ESB,EBS,0001">1003200000210</case>
+      <case value="SVR_ESB,EBS,0002">1003200000211</case>
+      <case value="SVR_ESB,EBS,0003">1003300000106</case>
+      <!--电子票据end-->
+      <!--银企对账start-->
+      <case value="SVR_ESB,BCS,0001">5001200000801</case>
+      <case value="SVR_ESB,BCS,0002">5001300001101</case>
+      <!--银企对账end-->
+      <!--收单管理系统start-->
+      <case value="SVR_ECSS,1800,9527">5001200000304</case>
+      <!--收单管理系统end-->
+      <!--新中间业务系统start-->
+      <case value="SVR_BRANCHPLATFORM,3001,0004">3006300000701</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0005">3006300000603</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0006">3006100000103</case>
+      <case value="SVR_BRANCHPLATFORM,3001,0008">3006300000604</case>
+      <!--新中间业务系统end-->
+    </switch>
+  </channel>
+  <!--财富管理系统WMS-->
+  <channel id="WMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3002300000508">3002300000508</case>
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="3001300000209">3001300000209</case>
+      <case value="3002300000201">3002300000201</case>
+      <case value="3005300000801">3005300000801</case>
+      <case value="3005300000901">3005300000901</case>
+    </switch>
+  </channel>
+  <!--STM智能柜员机STM-->
+  <channel id="STM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+	  <case value="1001200000802">1001200000802</case>
+      <case value="1001200000803">1001200000803</case>
+      <case value="1001300000501">1001300000501</case>
+      <case value="1001200000601">1001200000601</case>
+      <case value="1001200000602">1001200000602</case>
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_RMS,1400,1653">3004200000209</case>
+      <case value="SVR_RMS,1400,0108">3001300000315</case>
+      <case value="SVR_RMS,1400,4047">3002300000305</case>
+      <case value="SVR_RMS,2100,4101">3006300000614</case>
+      <case value="SVR_RMS,1400,0174">3001300001103</case>
+      <case value="SVR_RMS,1400,0101">3001300000102</case>
+      <case value="SVR_EBANK,1200,8006">3005200000103</case>
+      <case value="SVR_EBANK,1200,8002">3005200000104</case>
+      <case value="SVR_EBANK,1200,8005">2001300000110</case>
+      <!--新回单start-->
+      <case value="SVR_NRMS,1400,1653">3004200000210</case>
+      <case value="SVR_NRMS,1400,0108">3001300000318</case>
+      <case value="SVR_NRMS,1400,4047">3002300000317</case>
+      <case value="SVR_NRMS,2100,4101">3006300000615</case>
+      <case value="SVR_NRMS,1400,0174">3001300001104</case>
+      <case value="SVR_NRMS,1400,0101">3001300000103</case>
+      <!--新回单end-->
+      <!--无纸化start-->
+      <case value="SVR_ESB,PS,0001">6001500000102</case>
+      <case value="SVR_ESB,PS,0002">6001500000103</case>
+      <case value="SVR_ESB,PS,0003">6001500000104</case>
+      <case value="SVR_ESB,PS,0004">6001500000105</case>
+      <case value="SVR_ESB,PS,0005">6001500000106</case>
+      <!--无纸化end-->
+    </switch>
+  </channel>
+  <!--客服系统CSS-->
+  <channel id="CSS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001100000204">3001100000204</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="3001300000105">3001300000105</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000218">3001300000218</case>
+      <case value="3001300000219">3001300000219</case>
+      <case value="3001300000220">3001300000220</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300000324">3001300000324</case>
+      <case value="3001300000325">3001300000325</case>
+      <case value="3001300001106">3001300001106</case>
+      <case value="3001300001401">3001300001401</case>
+      <case value="3002200000104">3002200000104</case>
+      <case value="3002200001601">3002200001601</case>
+      <case value="3002300000108">3002300000108</case>
+      <case value="3002300000218">3002300000218</case>
+      <case value="3002300000319">3002300000319</case>
+      <case value="3002300000508">3002300000508</case>
+      <case value="3003200000405">3003200000405</case>
+      <case value="3004300000105">3004300000105</case>
+      <case value="5001200000305">5001200000305</case>
+      <case value="5001300000503">5001300000503</case>
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="3003300000111">3003300000111</case>
+      <case value="3003200000207">3003200000207</case>
+      <case value="3003200000404">3003200000404</case>
+      <case value="3003300000112">3003300000112</case>
+    </switch>
+  </channel>
+  <!--网贷平台OLP-->
+  <channel id="OLP" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="2001300000201">2001300000201</case>
+      <case value="2001300000102">2001300000102</case>
+      <case value="3001200000501">3001200000501</case>
+      <case value="3001300001301">3001300001301</case>
+      <case value="3001100000106">3001100000106</case>
+      <!--电子签章start-->
+      <case value="5001500000101">5001500000101</case>
+      <!--电子签章end-->
+    </switch>
+  </channel>
+  <!--渠道整合平台-->
+  <channel id="CIP" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--人脸识别start-->
+      <case value="3006200000601">3006200000601</case>
+      <case value="3006200000602">3006200000602</case>
+      <case value="3006200000603">3006200000603</case>
+      <case value="3006300000801">3006300000801</case>
+      <case value="3006200000604">3006200000604</case>
+      <!--人脸识别end-->
+      <!--借记卡系统start-->
+      <case value="6001100000101">6001100000101</case>
+      <!--借记卡系统end-->
+      <!--联网核查start-->
+      <case value="2001300000105">2001300000105</case>
+      <!--联网核查end-->
+      <!--支付风险控制系统start-->
+      <case value="4001200000101">4001200000101</case>
+      <!--支付风险控制系统end-->
+      <!--信贷管理系统start-->
+      <case value="3001300000211">3001300000211</case>
+      <case value="3001300000212">3001300000212</case>
+      <case value="3001200000206">3001200000206</case>
+      <!--信贷管理系统end-->
+      <!--基金系统start-->
+      <case value="2001300000110">2001300000110</case>
+      <case value="3005200000103">3005200000103</case>
+      <case value="3005200000104">3005200000104</case>
+      <case value="3005300000104">3005300000104</case>
+      <case value="3005300000206">3005300000206</case>
+      <!--基金系统end-->
+      <!--反向routerstart-->
+      <case value="2001300000111">2001300000111</case>
+      <case value="1003200000207">1003200000207</case>
+      <case value="1003200000206">1003200000206</case>
+      <case value="1003200000105">1003200000105</case>
+      <case value="2001300000112">2001300000112</case>
+      <!--反向routerend-->
+      <!--超网start-->
+      <case value="2001300000405">2001300000405</case>
+      <case value="2001200000301">2001200000301</case>
+      <case value="2001200000302">2001200000302</case>
+      <case value="1003300000118">1003300000118</case>
+      <case value="1003300000119">1003300000119</case>
+      <case value="1003300000120">1003300000120</case>
+      <!--超网end-->
+      <!--核心start-->
+      <case value="1003300000103">1003300000103</case>
+      <case value="1003200000201">1003200000201</case>
+      <case value="1003200000202">1003200000202</case>
+      <case value="3002400000101">3002400000101</case>
+      <case value="3001100000401">3001100000401</case>
+      <!--核心end-->
+      <!--无卡支付start-->
+      <case value="3004200000702">3004200000702</case>
+      <!--无卡支付end-->
+      <!--电子签章start-->
+      <case value="5001500000101">5001500000101</case>
+      <!--电子签章end-->
+      <!--无纸化start-->
+      <case value="6001500000101">6001500000101</case>
+      <!--无纸化end-->
+    </switch>
+  </channel>
+  <!--EBS-->
+  <channel id="EBS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001500000202">3001500000202</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3004100000902">3004100000902</case>
+      <case value="3004200001102">3004200001102</case>
+      <case value="5001500000301">5001500000301</case>
+      <case value="3004300001401">3004300001401</case>
+      <case value="3004100000801">3004100000801</case>
+      <case value="3004200000804">3004200000804</case>
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002200000208">3002200000208</case>
+      <case value="2001300000138">2001300000138</case>
+      <case value="3002200000504">3002200000504</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--信贷管理系统start-->
+      <case value="3002200000204">3002200000204</case>
+      <case value="2001300000114">2001300000114</case>
+      <case value="3002200000501">3002200000501</case>
+      <!--信贷管理系统end-->
+    </switch>
+  </channel>
+  <!--全面风险系统-->
+  <channel id="ARMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002200000702">3002200000702</case>
+      <case value="3002200000803">3002200000803</case>
+      <case value="3002200000804">3002200000804</case>
+      <case value="3002200000611">3002200000611</case>
+      <case value="3002200000612">3002200000612</case>
+      <case value="3002200000613">3002200000613</case>
+      <case value="3002200000614">3002200000614</case>
+      <case value="3002300000229">3002300000229</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--信贷管理系统start-->
+      <case value="3002200000701">3002200000701</case>
+      <case value="3002200000801">3002200000801</case>
+      <case value="3002200000802">3002200000802</case>
+      <case value="3002200000603">3002200000603</case>
+      <case value="3002200000604">3002200000604</case>
+      <case value="3002200000602">3002200000602</case>
+      <case value="3002200000601">3002200000601</case>
+      <case value="3002300000208">3002300000208</case>
+      <case value="3002300000102">3002300000102</case>
+      <!--信贷管理系统end-->
+      <!--集中作业系统start-->
+      <case value="3002200000608">3002200000608</case>
+      <case value="3002200000609">3002200000609</case>
+      <!--集中作业系统end-->
+    </switch>
+  </channel>
+  <!--集中作业-->
+  <channel id="COS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001200000115">2001200000115</case>
+      <case value="2001200000116">2001200000116</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="2001300000127">2001300000127</case>
+      <case value="2001300000128">2001300000128</case>
+      <case value="2001300000406">2001300000406</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3001100000405">3001100000405</case>
+      <case value="3001100000406">3001100000406</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000801">3001200000801</case>
+      <case value="3001200000802">3001200000802</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="3001200000902">3001200000902</case>
+      <case value="3001200001101">3001200001101</case>
+      <case value="3001300000106">3001300000106</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001300000223">3001300000223</case>
+      <case value="3001300000227">3001300000227</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300000326">3001300000326</case>
+      <case value="3001300000905">3001300000905</case>
+      <case value="3001300001105">3001300001105</case>
+      <case value="3001300001601">3001300001601</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3002300000110">3002300000110</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="5001100000401">5001100000401</case>
+      <case value="5001100000501">5001100000501</case>
+      <case value="5001100000502">5001100000502</case>
+      <case value="5001300000204">5001300000204</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="5001300000307">5001300000307</case>
+      <case value="5001300000309">5001300000309</case>
+      <case value="5001300000403">5001300000403</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="5001100000103">5001100000103</case>
+      <case value="5001200000306">5001200000306</case>
+      <!--新核心配套by yufxb end-->
+      <!--信贷管理系统by yufxb start-->
+      <case value="3004100000602">3004100000602</case>
+      <case value="2001200000118">2001200000118</case>
+      <case value="3002200001409">3002200001409</case>
+      <case value="3002200001505">3002200001505</case>
+      <case value="3002200000503">3002200000503</case>
+      <!--信贷管理系统by yufxb end-->
+      <case value="3004300001801">3004300001801</case>
+      <case value="3004100001004">3004100001004</case>
+      <case value="3004100001005">3004100001005</case>
+      <case value="3004100001001">3004100001001</case>
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--电子印章start-->
+      <case value="5001200000501">5001200000501</case>
+      <case value="5001200000502">5001200000502</case>
+      <case value="5001300000701">5001300000701</case>
+      <case value="6001200000401">6001200000401</case>
+      <!--电子印章end-->
+      <!--信贷系统start-->
+      <case value="3004100000601">3004100000601</case>
+      <case value="3002300000209">3002300000209</case>
+      <!--信贷系统end-->
+      <!--全面风险系统start-->
+      <case value="3002200000607">3002200000607</case>
+      <!--全面风险系统end-->
+    </switch>
+  </channel>
+  <!--实体印章-->
+  <channel id="ESMS" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--核心start-->
+      <case value="5001200000601">5001200000601</case>
+      <!--核心end-->
+    </switch>
+  </channel>
+  <!--司法查控-->
+  <channel id="JPS" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--新回单系统start-->
+      <case value="3001500000301">3001500000301</case>
+      <!--新回单系统end-->
+    </switch>
+  </channel>
+  <!--资产证券-->
+  <channel id="ABS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002300000216">3002300000216</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--核心系统start-->
+      <case value="3007100000201">3007100000201</case>
+      <case value="3007100000202">3007100000202</case>
+      <case value="3007100000203">3007100000203</case>
+      <case value="3007100000204">3007100000204</case>
+      <!--核心系统end-->
+    </switch>
+  </channel>
+  <!--网银平台-->
+  <channel id="EBP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002200000336">3002200000336</case>
+      <case value="3002300000224">3002300000224</case>
+      <case value="3002200000337">3002200000337</case>
+      <case value="2001300000137">2001300000137</case>
+      <case value="2001200000117">2001200000117</case>
+      <case value="2001200000310">2001200000310</case>
+      <case value="3002200000338">3002200000338</case>
+      <case value="3002200000339">3002200000339</case>
+      <case value="3002200000403">3002200000403</case>
+      <case value="6001200000302">6001200000302</case>
+      <case value="3002300000225">3002300000225</case>
+      <case value="3002200000340">3002200000340</case>
+      <case value="3002300000226">3002300000226</case>
+      <case value="3002300000227">3002300000227</case>
+      <case value="3002300000228">3002300000228</case>
+      <case value="3002200000404">3002200000404</case>
+      <case value="3002300000230">3002300000230</case>
+      <case value="3001300000234">3001300000234</case>
+      <case value="3001300000235">3001300000235</case>
+      <case value="2001200000119">2001200000119</case>
+      <case value="3002300000609">3002300000609</case>
+      <case value="3002200000209">3002200000209</case>
+      <case value="3002200000210">3002200000210</case>
+      <case value="3002200000341">3002200000341</case>
+      <case value="3002300001007">3002300001007</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_IBPS,1400,106103">3004300000502</case>
+      <case value="SVR_NONFINANCIAL,1200,0705">3002200000102</case>
+      <case value="SVR_INQUIRY,1400,0708">3002300000801</case>
+      <case value="SVR_FINANCIAL,1000,2918">3002100000102</case>
+      <case value="SVR_FINANCIAL,1000,2921">3002100000203</case>
+      <case value="SVR_FINANCIAL,1000,2919">3002100000204</case>
+      <case value="SVR_INQUIRY,1400,2535">3002300000306</case>
+      <case value="SVR_INQUIRY,1400,2923">3002300000307</case>
+      <case value="SVR_INQUIRY,1400,0704">3002300000106</case>
+      <case value="SVR_FINANCIAL,1000,2931">3002100000209</case>
+      <case value="SVR_INQUIRY,1400,0707">3009300000101</case>
+      <case value="SVR_INQUIRY,1400,0703">3002300000901</case>
+      <case value="SVR_IBPS,1400,106102">2001300000405</case>
+      <case value="SVR_IBPS,1200,106190">1003300000118</case>
+      <case value="SVR_IBPS,1200,106207">1003300000119</case>
+      <case value="SVR_IBPS,1400,106104">1003300000120</case>
+      <case value="SVR_INQUIRY,1400,2501">3002300000107</case>
+      <case value="SVR_INQUIRY,1400,2537">3002300000504</case>
+      <case value="SVR_NONFINANCIAL,1200,0128">2001200000113</case>
+      <case value="SVR_INQUIRY,1400,0998">2001300000124</case>
+    </switch>
+    <switch mode="xml" expression="/Message/Head/TransactionId" encode="UTF-8">
+      <case value="3002200000310">3002200000310</case>
+      <case value="3002300000203">3002300000203</case>
+      <case value="3002200000311">3002200000311</case>
+      <case value="2001300000113">2001300000113</case>
+      <case value="2001200000104">2001200000104</case>
+      <case value="2001200000305">2001200000305</case>
+      <case value="3002200000312">3002200000312</case>
+      <case value="3002200000313">3002200000313</case>
+      <case value="3002200000401">3002200000401</case>
+      <case value="6001200000301">6001200000301</case>
+      <case value="3002300000204">3002300000204</case>
+      <case value="3002200000314">3002200000314</case>
+      <case value="3002300000205">3002300000205</case>
+      <case value="3002300000206">3002300000206</case>
+      <case value="3002300000207">3002300000207</case>
+      <case value="3002200000402">3002200000402</case>
+      <case value="3001300000211">3001300000211</case>
+      <case value="3001300000212">3001300000212</case>
+      <case value="3001200000206">3001200000206</case>
+      <case value="4001200000101">4001200000101</case>
+      <case value="4001500000101">4001500000101</case>
+      <case value="2001300000120">2001300000120</case>
+      <case value="3002300000607">3002300000607</case>
+      <case value="3002200000206">3002200000206</case>
+      <case value="3002200000207">3002200000207</case>
+      <!--人证合一start-->
+      <case value="4001200000201">4001200000201</case>
+      <case value="4001200000202">4001200000202</case>
+      <case value="4001200000204">4001200000204</case>
+      <case value="4001200000205">4001200000205</case>
+      <!--人证合一end-->
+      <!--无卡支付start-->
+      <case value="3004300001101">3004300001101</case>
+      <case value="3004300001102">3004300001102</case>
+      <case value="3004300001103">3004300001103</case>
+      <case value="3004300001104">3004300001104</case>
+      <case value="3004300001105">3004300001105</case>
+      <case value="3004200000901">3004200000901</case>
+      <case value="3004200000902">3004200000902</case>
+      <case value="3004200000903">3004200000903</case>
+      <case value="3004200000904">3004200000904</case>
+      <case value="3004300001106">3004300001106</case>
+      <case value="3004200000905">3004200000905</case>
+      <case value="3004100000701">3004100000701</case>
+      <!--无卡支付end-->
+      <!--电子签章管理系统start-->
+      <case value="5001500000101">5001500000101</case>
+      <!--电子签章管理系统end-->
+      <!--电子票据系统start-->
+      <case value="3004300000904">3004300000904</case>
+      <case value="3004300000905">3004300000905</case>
+      <case value="3004300000906">3004300000906</case>
+      <case value="3004300000907">3004300000907</case>
+      <case value="3004300001201">3004300001201</case>
+      <case value="3004300001202">3004300001202</case>
+      <case value="3004300001301">3004300001301</case>
+      <case value="3004300001302">3004300001302</case>
+      <case value="3004300001303">3004300001303</case>
+      <case value="3004300000908">3004300000908</case>
+      <case value="3004300000909">3004300000909</case>
+      <case value="3004300000910">3004300000910</case>
+      <case value="3004300000911">3004300000911</case>
+      <case value="3004300001304">3004300001304</case>
+      <case value="3004200001001">3004200001001</case>
+      <case value="3004300001305">3004300001305</case>
+      <case value="3004300000912">3004300000912</case>
+      <case value="3004300001306">3004300001306</case>
+      <case value="3004200001002">3004200001002</case>
+      <case value="3004200001003">3004200001003</case>
+      <case value="3004200001004">3004200001004</case>
+      <case value="3004200001005">3004200001005</case>
+      <case value="3004200001006">3004200001006</case>
+      <case value="3004300001307">3004300001307</case>
+      <!--电子票据系统end-->
+      <case value="3001300000319">3001300000319</case>
+      <case value="3004200000803">3004200000803</case>
+      <case value="3004300001308">3004300001308</case>
+      <case value="3002200000327">3002200000327</case>
+      <case value="3002300001003">3002300001003</case>
+    </switch>
+  </channel>
+  <!--国结系统-->
+  <channel id="ISS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--根据客户号或者证件信息查询客-->
+      <case value="2001300000125">2001300000125</case>
+      <!--通用记账-->
+      <case value="5001100000303">5001100000303</case>
+      <!--存款统一冲正-->
+      <case value="3001400000101">3001400000101</case>
+      <!--账户信息查询(外围专用)-->
+      <case value="3001300000214">3001300000214</case>
+      <!--账户限制-->
+      <case value="3001200000601">3001200000601</case>
+      <!--结售-->
+      <case value="3007100000103">3007100000103</case>
+      <!--根据客户号或者证件信息查询存-->
+      <case value="3001300000216">3001300000216</case>
+      <!--贷款开-->
+      <case value="3002200000328">3002200000328</case>
+      <!--获取交叉汇率-->
+      <case value="5001300000502">5001300000502</case>
+      <!--汇率查询接口-->
+      <case value="5001300000503">5001300000503</case>
+      <!--信贷管理系统by yufxb start-->
+      <case value="3004300000210">3004300000210</case>
+      <case value="3002200000334">3002200000334</case>
+      <case value="3002100000107">3002100000107</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <!--信贷start-->
+      <case value="3004300000209">3004300000209</case>
+      <!--信贷end-->
+    </switch>
+  </channel>
+  <!--新中间业务平台NIBP-->
+  <channel id="NIBP" type="dynamic">
+    <switch mode="cd" expression="/service/sys-header/data/struct/data/SERVICE_CODE,/service/sys-header/data/struct/data/MESSAGE_TYPE,/service/sys-header/data/struct/data/MESSAGE_CODE" encode="UTF-8">
+      <case value="SVR_PTS2,1200,6200">3004200000302</case>
+      <case value="SVR_PTS2,1200,6202">3004100000306</case>
+      <case value="SVR_PTS2,1400,1234">3004300000503</case>
+      <case value="SVR_PTS2,1200,6101">3004100000408</case>
+    </switch>
+  </channel>
+  <!--银企对账系统-->
+  <channel id="BCS" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="6001200000401">6001200000401</case>
+      <case value="5001300000602">5001300000602</case>
+      <case value="5001500000201">5001500000201</case>
+      <case value="5001200000802">5001200000802</case>
+      <case value="5001500000202">5001500000202</case>
+      <case value="5001200000601">5001200000601</case>
+    </switch>
+  </channel>
+  <!--电子验印系统-->
+  <channel id="EVS" type="dynamic">
+    <switch mode="xml" expression="/Service/SysHead/SvcCd+/Service/SysHead/SvcScn" encode="UTF-8">
+      <case value="6001200000402">6001200000402</case>
+      <case value="6001200000403">6001200000403</case>
+    </switch>
+  </channel>
+  <!--POS-->
+  <channel id="POS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000701">3001200000701</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3003100000701">3003100000701</case>
+      <case value="3003100000702">3003100000702</case>
+      <case value="3003100000801">3003100000801</case>
+      <case value="3003100000802">3003100000802</case>
+      <case value="3003100000803">3003100000803</case>
+      <case value="3003400000102">3003400000102</case>
+      <case value="3003400000103">3003400000103</case>
+      <case value="3003400000105">3003400000105</case>
+      <case value="5001100000302">5001100000302</case>
+    </switch>
+  </channel>
+  <!--银联系统-->
+  <channel id="CUP" type="dynamic">
+    <switch mode="json" expression="sysHead/svcCd+sysHead/scnCd" encode="UTF-8">
+      <case value="3003100000801">3003100000801</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="3003100000206">3003100000206</case>
+      <case value="3003100000701">3003100000701</case>
+      <case value="3003100000207">3003100000207</case>
+      <case value="3003100000802">3003100000802</case>
+      <case value="3003400000102">3003400000102</case>
+      <case value="3003100000210">3003100000210</case>
+      <case value="3003100000303">3003100000303</case>
+      <case value="3003100000304">3003100000304</case>
+      <case value="3003100000703">3003100000703</case>
+      <case value="3003100000704">3003100000704</case>
+      <case value="3003400000110">3003400000110</case>
+      <case value="3003100000211">3003100000211</case>
+      <case value="3003100000212">3003100000212</case>
+      <case value="3003100000803">3003100000803</case>
+      <case value="3001500000202">3001500000202</case>
+      <case value="3003400000103">3003400000103</case>
+      <case value="3003400000104">3003400000104</case>
+      <case value="3003400000105">3003400000105</case>
+      <case value="3003400000106">3003400000106</case>
+      <case value="3003400000107">3003400000107</case>
+      <case value="3003400000108">3003400000108</case>
+      <case value="3003400000109">3003400000109</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3003400000111">3003400000111</case>
+      <case value="3003100000209">3003100000209</case>
+      <case value="3004100000502">3004100000502</case>
+      <case value="3003100000901">3003100000901</case>
+      <case value="3003400000112">3003400000112</case>
+    </switch>
+  </channel>
+  <!--文件传输平台-->
+  <channel id="FTS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="9009900000909">9009900000909</case>
+    </switch>
+  </channel>
+  <!--CAB-->
+  <channel id="CAB" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3002200001502">3002200001502</case>
+    </switch>
+  </channel>
+  <!--FMS-->
+  <channel id="FMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001300000322">3001300000322</case>
+      <case value="5001100000203">5001100000203</case>
+      <case value="3001300000104">3001300000104</case>
+      <case value="5001100000201">5001100000201</case>
+      <case value="5001100000304">5001100000304</case>
+      <case value="5001100000202">5001100000202</case>
+    </switch>
+  </channel>
+  <!--FAM-->
+  <channel id="FAM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001300000321">3001300000321</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="5001100000301">5001100000301</case>
+      <case value="5001100000302">5001100000302</case>
+      <case value="5001100000304">5001100000304</case>
+    </switch>
+  </channel>
+  <!--FIN-->
+  <channel id="FIN" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="2001200000601">2001200000601</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="3001100000902">3001100000902</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3005100000401">3005100000401</case>
+      <case value="5001100000302">5001100000302</case>
+    </switch>
+  </channel>
+  <!--IF-->
+  <channel id="IF" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="5001100000302">5001100000302</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="5001100000304">5001100000304</case>
+      <case value="3004500000101">3004500000101</case>
+      <case value="5001100000301">5001100000301</case>
+	  <case value="3004300001701">3004300001701</case>
+      <case value="3004200001301">3004200001301</case>
+    </switch>
+  </channel>
+  <!--RMS-->
+  <channel id="RMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001500000202">3001500000202</case>
+    </switch>
+  </channel>
+  <!--网申系统CCO-->
+  <channel id="CCO" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="3001300000216">3001300000216</case>
+      <!--新核心配套by yangxfj end-->
+    </switch>
+  </channel>
+  <!--信用卡APP系统CCS-->
+  <channel id="CCS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="3001300000216">3001300000216</case>
+      <!--新核心配套by yangxfj end-->
+    </switch>
+  </channel>
+  <!--移动营销MMS-->
+  <channel id="MMS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="2001200000115">2001200000115</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="2001300000127">2001300000127</case>
+      <case value="3002200001601">3002200001601</case>
+      <case value="3001300000324">3001300000324</case>
+      <case value="5001200000306">5001200000306</case>
+      <case value="3001200000801">3001200000801</case>
+      <case value="3004200000502">3004200000502</case>
+      <case value="5001200000901">5001200000901</case>
+      <case value="5001300000301">5001300000301</case>
+      <case value="3001300000218">3001300000218</case>
+      <case value="5001200000306">5001200000306</case>
+      <!--新核心配套by yangxfj end-->
+    </switch>
+  </channel>
+  <!--企业网银EOS-->
+  <channel id="EOS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="5001100000103">5001100000103</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3002300001005">3002300001005</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="2002200000109">2002200000109</case>
+      <case value="3001200001201">3001200001201</case>
+      <case value="3003200000208">3003200000208</case>
+      <case value="3001500000502">3001500000502</case>
+      <case value="5001300000204">5001300000204</case>
+      <case value="3001200000208">3001200000208</case>
+      <case value="3001300000222">3001300000222</case>
+      <case value="3001300000906">3001300000906</case>
+      <case value="3005300000212">3005300000212</case>
+      <case value="2001200000602">2001200000602</case>
+      <!--新核心配套by yangxfj end-->
+      <case value="3004100001101">3004100001101</case>
+      <case value="3004100001102">3004100001102</case>
+      <case value="3004100001103">3004100001103</case>
+      <case value="3004300001901">3004300001901</case>
+    </switch>
+  </channel>
+  <!--网银后管IBM-->
+  <channel id="IBM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <case value="5001100000103">5001100000103</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001200000701">3001200000701</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="5001200000306">5001200000306</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="5001300000310">5001300000310</case>
+      <case value="3003300000115">3003300000115</case>
+      <case value="5001300000403">5001300000403</case>
+      <case value="5001200000306">5001200000306</case>
+      <!--新核心配套by yangxfj end-->
+    </switch>
+  </channel>
+  <!--住建部公积金 SFC-->
+  <channel id="SFC" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="3001300000104">3001300000104</case>
+      <case value="3001300000229">3001300000229</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000206">3001500000206</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="3001500000502">3001500000502</case>
+      <case value="3002300000111">3002300000111</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--反电信诈骗 TRE-->
+  <channel id="TRE" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001300000126">2001300000126</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300000905">3001300000905</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--信用卡前置CTCD CCF-->
+  <channel id="CCF" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001500000102">2001500000102</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000905">3001300000905</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000204">3001500000204</case>
+      <case value="5001100000103">5001100000103</case>
+      <case value="5001100000301">5001100000301</case>
+      <case value="5001100000302">5001100000302</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="5001100000304">5001100000304</case>
+      <case value="5001400000101">5001400000101</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--银联无卡支付（云闪付） FQP-->
+  <channel id="FQP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001200000114">2001200000114</case>
+      <case value="3001200000801">3001200000801</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3003100000208">3003100000208</case>
+      <case value="3003100000702">3003100000702</case>
+      <case value="5001100000302">5001100000302</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--财税库TIPS TIP-->
+  <channel id="TIP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000219">3001300000219</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000202">3001500000202</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--IC卡 ICS-->
+  <channel id="ICS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="5001100000303">5001100000303</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--中间业务平台 MBP-->
+  <channel id="MBP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001300000127">2001300000127</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000226">3001300000226</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300001107">3001300001107</case>
+      <case value="3005100000103">3005100000103</case>
+      <case value="3005200000901">3005200000901</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="5001300000802">5001300000802</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--新中间业务 NMB-->
+  <channel id="NMB" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001500000102">2001500000102</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001100000405">3001100000405</case>
+      <case value="3001200001301">3001200001301</case>
+      <case value="3001200001302">3001200001302</case>
+      <case value="3001200001401">3001200001401</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000202">3001500000202</case>
+      <case value="3001500000501">3001500000501</case>
+      <!--新核心配套by yufxb end-->
+      <case value="3006200001101">3006200001101</case>
+      <case value="3006300001401">3006300001401</case>
+      <case value="3006300001402">3006300001402</case>
+      <case value="3006500000302">3006500000302</case>
+      <case value="3006200001102">3006200001102</case>
+      <case value="3006200001103">3006200001103</case>
+      <case value="3006500000303">3006500000303</case>
+      <case value="3006500000304">3006500000304</case>
+      <case value="3006200001104">3006200001104</case>
+      <case value="3006500000305">3006500000305</case>
+      <case value="3006300001403">3006300001403</case>
+      <case value="3006300001301">3006300001301</case>
+      <case value="3006200001105">3006200001105</case>
+      <case value="3006200001106">3006200001106</case>
+      <case value="3006300001404">3006300001404</case>
+      <case value="3006300001408">3006300001408</case>
+      <case value="3006200001108">3006200001108</case>
+      <case value="3006300001409">3006300001409</case>
+      <case value="3006300001201">3006300001201</case>
+      <case value="3006200001001">3006200001001</case>
+      <case value="3006300001202">3006300001202</case>
+      <case value="3006200001110">3006200001110</case>
+      <case value="3006300001407">3006300001407</case>
+      <case value="3006200001002">3006200001002</case>
+      <case value="3006200001107">3006200001107</case>
+      <case value="3006300001405">3006300001405</case>
+      <case value="3006200001114">3006200001114</case>
+      <case value="3006300001406">3006300001406</case>
+      <case value="3006200000904">3006200000904</case>
+      <case value="3006200000901">3006200000901</case>
+      <case value="3006300001302">3006300001302</case>
+      <case value="3006500000306">3006500000306</case>
+      <case value="3006300001304">3006300001304</case>
+      <case value="3006500000307">3006500000307</case>
+      <case value="3006200001112">3006200001112</case>
+      <case value="3006200001113">3006200001113</case>
+      <case value="3006200001109">3006200001109</case>
+      <case value="3006500000201">3006500000201</case>
+      <case value="3006100000201">3006100000201</case>
+      <case value="3006500000301">3006500000301</case>
+      <case value="3006200000903">3006200000903</case>
+      <case value="3006200000902">3006200000902</case>
+      <case value="3006300001303">3006300001303</case>
+      <case value="3006100000202">3006100000202</case>
+      <case value="3006500000207">3006500000207</case>
+      <case value="3006200001111">3006200001111</case>
+      <case value="3006300001410">3006300001410</case>
+      <case value="3006200001115">3006200001115</case>
+      <case value="3006200001116">3006200001116</case>
+      <case value="3006500000202">3006500000202</case>
+      <case value="3006500000203">3006500000203</case>
+      <case value="3006500000204">3006500000204</case>
+      <case value="3006500000205">3006500000205</case>
+      <case value="3006500000206">3006500000206</case>
+      <case value="3006200001003">3006200001003</case>
+      <case value="3006300000617">3006300000617</case>
+      <case value="3006300001504">3006300001504</case>
+      <case value="3006200001405">3006200001405</case>
+      <case value="3006200001203">3006200001203</case>
+      <case value="3006300000702">3006300000702</case>
+      <case value="3006300000618">3006300000618</case>
+      <case value="3006100000114">3006100000114</case>
+      <case value="3006200000502">3006200000502</case>
+      <case value="3006300000619">3006300000619</case>
+      <case value="3006100000115">3006100000115</case>
+      <case value="3006300000620">3006300000620</case>
+      <case value="3006300001801">3006300001801</case>
+      <case value="3006200001501">3006200001501</case>
+      <case value="3006200000405">3006200000405</case>
+      <case value="3006300001901">3006300001901</case>
+      <case value="3006300000504">3006300000504</case>
+      <case value="3006300000621">3006300000621</case>
+      <case value="3006300000407">3006300000407</case>
+      <case value="3006100000116">3006100000116</case>
+      <case value="3006200000406">3006200000406</case>
+      <case value="3006300001411">3006300001411</case>
+      <case value="3006300000103">3006300000103</case>
+      <case value="3006300000622">3006300000622</case>
+      <case value="3006300000623">3006300000623</case>
+      <case value="3006300001412">3006300001412</case>
+      <case value="3006200001117">3006200001117</case>
+      <case value="3006200001004">3006200001004</case>
+      <case value="3006200001005">3006200001005</case>
+      <case value="3006300001413">3006300001413</case>
+      <case value="3006200001204">3006200001204</case>
+      <case value="3006200001202">3006200001202</case>
+      <case value="3006300001601">3006300001601</case>
+      <case value="3006200001301">3006200001301</case>
+      <case value="3006200001401">3006200001401</case>
+      <case value="3006300001501">3006300001501</case>
+      <case value="3006200001402">3006200001402</case>
+      <case value="3006200001302">3006200001302</case>
+      <case value="3006200001304">3006200001304</case>
+      <case value="3006500000402">3006500000402</case>
+      <case value="3006200001404">3006200001404</case>
+      <case value="3006300001602">3006300001602</case>
+      <case value="3006200001303">3006200001303</case>
+      <case value="3006300001502">3006300001502</case>
+      <case value="3006300001503">3006300001503</case>
+      <case value="3006200001403">3006200001403</case>
+      <case value="3006300001603">3006300001603</case>
+      <case value="3006300001701">3006300001701</case>
+      <case value="3006300001702">3006300001702</case>
+      <case value="3006300001703">3006300001703</case>
+      <case value="3006500000401">3006500000401</case>
+      <case value="3006200001201">3006200001201</case>
+      <case value="3003300000803">3003300000803</case>
+      <case value="3003300000804">3003300000804</case>
+      <!--收单管理系统-->
+      <case value="3003200001201">3003200001201</case>
+      <case value="3003300000801">3003300000801</case>
+      <case value="3003200001301">3003200001301</case>
+      <case value="3003200001302">3003200001302</case>
+      <case value="3003200001303">3003200001303</case>
+      <case value="3003200001304">3003200001304</case>
+      <case value="3003300000802">3003300000802</case>
+      <case value="3003200001401">3003200001401</case>
+      <case value="3003200001402">3003200001402</case>
+      <case value="3003200001403">3003200001403</case>
+      <case value="3003200001405">3003200001405</case>
+      <case value="3003200001404">3003200001404</case>
+      <case value="3003200001202">3003200001202</case>
+    </switch>
+  </channel>
+  <!--人脸识别 FR-->
+  <channel id="FR" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001200000114">2001200000114</case>
+      <case value="3001300000214">3001300000214</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--基金代销 FUN-->
+  <channel id="FUN" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001200000602">2001200000602</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001100000903">3001100000903</case>
+      <case value="3001100000904">3001100000904</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300001701">3001300001701</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--司法查扣 JS-->
+  <channel id="JS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="2001300000127">2001300000127</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001100000302">3001100000302</case>
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000219">3001300000219</case>
+      <case value="3001300000228">3001300000228</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300000905">3001300000905</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--市级国库集中支付 MTC-->
+  <channel id="MTC" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000202">3001500000202</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--省级国库集中支付 PTC-->
+  <channel id="PTC" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001300000214">3001300000214</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001500000202">3001500000202</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="5001300001201">5001300001201</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--第三方存管 TPD-->
+  <channel id="TPD" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yufxb start-->
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001300000219">3001300000219</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="5001100000302">5001100000302</case>
+      <!--新核心配套by yufxb end-->
+    </switch>
+  </channel>
+  <!--ps2-->
+  <channel id="PS2" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001200000601">3001200000601</case>
+      <case value="3001300000225">3001300000225</case>
+      <case value="3001300001302">3001300001302</case>
+      <case value="3004100000901">3004100000901</case>
+      <case value="3004200000502">3004200000502</case>
+      <case value="3004200001201">3004200001201</case>
+      <case value="3004300001501">3004300001501</case>
+      <case value="3004400000102">3004400000102</case>
+      <case value="3004100001002">3004100001002</case>
+      <case value="6001300000302">6001300000302</case>
+      <case value="3004100001003">3004100001003</case>
+    </switch>
+  </channel>
+  <!--UPP-->
+  <channel id="UPP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="2001300000125">2001300000125</case>
+      <case value="5001100000303">5001100000303</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="2001300000127">2001300000127</case>
+      <case value="3003300000115">3003300000115</case>
+    </switch>
+  </channel>
+  <!--BIC-->
+  <channel id="BIC" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="5001100000302">5001100000302</case>
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="5001200000306">5001200000306</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="5001300000306">5001300000306</case>
+    </switch>
+  </channel>
+  <!--BON-->
+  <channel id="BON" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001500000202">3001500000202</case>
+      <case value="3005100000104">3005100000104</case>
+      <case value="3005100000501">3005100000501</case>
+    </switch>
+  </channel>
+  <!--CTS-->
+  <channel id="CTS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001100000303">3001100000303</case>
+      <case value="5001100000304">5001100000304</case>
+      <case value="5001400000101">5001400000101</case>
+    </switch>
+  </channel>
+  <!--DCH-->
+  <channel id="DCH" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001400000101">3001400000101</case>
+      <case value="3004100000902">3004100000902</case>
+    </switch>
+  </channel>
+  <!--互联网信贷-->
+  <channel id="ICM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="2001200000114">2001200000114</case>
+      <case value="2001200000115">2001200000115</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="3001500000401">3001500000401</case>
+      <case value="5001100000103">5001100000103</case>
+      <case value="5001100000302">5001100000302</case>
+    </switch>
+  </channel>
+  <!--手机银行-->
+  <channel id="MBS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="1001200000604">1001200000604</case>
+      <case value="1001200000605">1001200000605</case>
+      <case value="1001300000701">1001300000701</case>
+	  <case value="3004200001302">3004200001302</case>
+      <case value="2001300000125">2001300000125</case>
+      <case value="5001300001201">5001300001201</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001200000701">3001200000701</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001100000404">3001100000404</case>
+      <case value="3002100000105">3002100000105</case>
+      <case value="3001300000215">3001300000215</case>
+      <case value="3001300000322">3001300000322</case>
+      <case value="3001300001105">3001300001105</case>
+      <case value="3002300000109">3002300000109</case>
+      <case value="3002300000403">3002300000403</case>
+      <case value="3002300000404">3002300000404</case>
+      <case value="3002300000507">3002300000507</case>
+      <case value="3002300000321">3002300000321</case>
+      <case value="3002300001005">3002300001005</case>
+      <case value="3001100000204">3001100000204</case>
+      <case value="3001200000901">3001200000901</case>
+      <case value="5001200000305">5001200000305</case>
+      <case value="3002300000505">3002300000505</case>
+      <case value="3001500000501">3001500000501</case>
+      <case value="5001300000306">5001300000306</case>
+      <case value="2002200000109">2002200000109</case>
+      <case value="3001200001001">3001200001001</case>
+      <case value="3001200000302">3001200000302</case>
+      <case value="3001100000304">3001100000304</case>
+      <case value="3001200001003">3001200001003</case>
+      <case value="3005200000107">3005200000107</case>
+      <case value="3001500000502">3001500000502</case>
+      <case value="5001300000204">5001300000204</case>
+      <case value="5001300000205">5001300000205</case>
+      <case value="3001300000222">3001300000222</case>
+      <case value="3001300000906">3001300000906</case>
+      <case value="3005300000212">3005300000212</case>
+      <case value="2001200000602">2001200000602</case>
+      <case value="3001300000403">3001300000403</case>
+      <case value="3001300001501">3001300001501</case>
+      <case value="3005300000115">3005300000115</case>
+      <case value="3001300000327">3001300000327</case>
+      <case value="3003300000115">3003300000115</case>
+      <case value="3003300000114">3003300000114</case>
+      <case value="3003300000116">3003300000116</case>
+      <case value="3002300000218">3002300000218</case>
+      <!-- 晋惠宝余额理财平台 -->
+      <case value="3005200000108">3005200000108</case>
+      <case value="3005200000109">3005200000109</case>
+      <case value="3005100000402">3005100000402</case>
+      <case value="3005200000403">3005200000403</case>
+      <case value="3005300000116">3005300000116</case>
+      <case value="3005300001601">3005300001601</case>
+      <case value="3005300000807">3005300000807</case>
+      <case value="3005300000213">3005300000213</case>
+      <case value="3005300000214">3005300000214</case>
+      <case value="3005300001104">3005300001104</case>
+      <case value="3001300000404">3001300000404</case>
+      <case value="3005200001001">3005200001001</case>
+      <case value="3005200001002">3005200001002</case>
+      <case value="3005200001003">3005200001003</case>
+      <case value="3005300001301">3005300001301</case>
+      <case value="3005100000403">3005100000403</case>
+      <case value="3005200000404">3005200000404</case>
+      <case value="3005200000405">3005200000405</case>
+      <case value="3005100000601">3005100000601</case>
+      <case value="3005100000602">3005100000602</case>
+      <case value="3005200000406">3005200000406</case>
+      <!-- 外围 -->
+      <case value="3005200000114">3005200000114</case>
+      <case value="3005200000115">3005200000115</case>
+      <case value="3005200000410">3005200000410</case>
+      <case value="3005300000812">3005300000812</case>
+      <case value="3005300000129">3005300000129</case>
+      <case value="2001300000130">2001300000130</case>
+      <case value="3005300000903">3005300000903</case>
+      <case value="3005300000234">3005300000234</case>
+      <case value="3005300000237">3005300000237</case>
+      <case value="3005300000238">3005300000238</case>
+      <case value="3005300001011">3005300001011</case>
+      <case value="3005300001010">3005300001010</case>
+      <case value="3005100000211">3005100000211</case>
+      <case value="3005100000212">3005100000212</case>
+      <case value="3005200000504">3005200000504</case>
+      <case value="3005100000302">3005100000302</case>
+      <case value="3005300000233">3005300000233</case>
+      <case value="3005300001106">3005300001106</case>
+      <case value="3005300000130">3005300000130</case>
+      <case value="3005300000132">3005300000132</case>
+      <case value="3005300000131">3005300000131</case>
+      <case value="3005100000214">3005100000214</case>
+      <case value="3005200000604">3005200000604</case>
+      <case value="3005200000408">3005200000408</case>
+      <case value="3005200000116">3005200000116</case>
+      <case value="3005200000117">3005200000117</case>
+      <case value="3005200000702">3005200000702</case>
+      <case value="3005100000213">3005100000213</case>
+      <case value="3005300000904">3005300000904</case>
+      <case value="3005300000813">3005300000813</case>
+      <case value="3005300001208">3005300001208</case>
+      <case value="3005300000235">3005300000235</case>
+      <case value="3005300001107">3005300001107</case>
+      <case value="3005300000133">3005300000133</case>
+      <case value="3005300000134">3005300000134</case>
+      <case value="3005300000814">3005300000814</case>
+      <case value="3005300000135">3005300000135</case>
+      <case value="3005300001012">3005300001012</case>
+      <case value="3005300000136">3005300000136</case>
+      <case value="3005300000137">3005300000137</case>
+      <case value="3005300001209">3005300001209</case>
+      <case value="3005300001013">3005300001013</case>
+      <case value="3005300000236">3005300000236</case>
+      <case value="3005300001108">3005300001108</case>
+      <case value="3005300000138">3005300000138</case>
+      <case value="3005300000815">3005300000815</case>
+      <case value="3005200000806">3005200000806</case>
+      <case value="3005300000139">3005300000139</case>
+      <case value="3005200000505">3005200000505</case>
+      <case value="3005200000506">3005200000506</case>
+      <case value="3005300000811">3005300000811</case>
+      <case value="3005200000803">3005200000803</case>
+      <case value="3005100000404">3005100000404</case>
+      <case value="3005200000804">3005200000804</case>
+      <case value="3005300000124">3005300000124</case>
+      <case value="3005300000126">3005300000126</case>
+      <case value="3005300001009">3005300001009</case>
+      <case value="3005300000228">3005300000228</case>
+      <case value="3005300000230">3005300000230</case>
+      <case value="3005300000231">3005300000231</case>
+      <case value="3005300000225">3005300000225</case>
+      <case value="3005300000229">3005300000229</case>
+      <case value="3005300000125">3005300000125</case>
+      <case value="3005300000127">3005300000127</case>
+      <case value="3005300000232">3005300000232</case>
+      <case value="3005200000805">3005200000805</case>
+      <case value="3005200000113">3005200000113</case>
+      <case value="3005300000223">3005300000223</case>
+      <case value="3005300000810">3005300000810</case>
+      <case value="3005300000226">3005300000226</case>
+      <case value="3005300000222">3005300000222</case>
+      <case value="3005300000224">3005300000224</case>
+      <case value="3005300000128">3005300000128</case>
+      <case value="3005300001105">3005300001105</case>
+      <case value="3005300000227">3005300000227</case>
+    </switch>
+  </channel>
+  <!--柜面-->
+  <channel id="TLE" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="4001100000101">4001100000101</case>
+      <case value="4001100000102">4001100000102</case>
+      <case value="4001100000103">4001100000103</case>
+      <case value="2001200000801">2001200000801</case>
+      <case value="2001200000307">2001200000307</case>
+      <case value="2001200000502">2001200000502</case>
+      <case value="2001200000308">2001200000308</case>
+      <case value="4001100000104">4001100000104</case>
+      <case value="4001100000105">4001100000105</case>
+      <case value="2001300000901">2001300000901</case>
+      <case value="4001100000106">4001100000106</case>
+      <case value="2001500000103">2001500000103</case>
+      <case value="2001500000104">2001500000104</case>
+      <case value="2001500000105">2001500000105</case>
+      <case value="4001300000201">4001300000201</case>
+      <case value="2001300000701">2001300000701</case>
+      <case value="2001300000703">2001300000703</case>
+      <case value="2001300000408">2001300000408</case>
+      <case value="2001300000409">2001300000409</case>
+      <case value="2001300000132">2001300000132</case>
+      <case value="2001300000133">2001300000133</case>
+      <case value="2001300000134">2001300000134</case>
+      <case value="2001300000702">2001300000702</case>
+      <case value="5001200001402">5001200001402</case>
+      <case value="4001300000202">4001300000202</case>
+      <case value="5001200001403">5001200001403</case>
+      <case value="2001300000411">2001300000411</case>
+      <case value="4001300000203">4001300000203</case>
+      <case value="2001300000129">2001300000129</case>
+      <case value="3002100000108">3002100000108</case>
+      <case value="3002200001410">3002200001410</case>
+      <case value="3006200000503">3006200000503</case>
+      <case value="3002200001411">3002200001411</case>
+      <case value="3002200001412">3002200001412</case>
+      <case value="3002200000610">3002200000610</case>
+      <case value="3002300000223">3002300000223</case>
+      <case value="2001300000412">2001300000412</case>
+      <case value="3002300000220">3002300000220</case>
+      <case value="3002300000511">3002300000511</case>
+      <case value="3002300000218">3002300000218</case>
+      <case value="3002300000323">3002300000323</case>
+      <case value="3002300000324">3002300000324</case>
+      <case value="3002300000325">3002300000325</case>
+      <case value="3002300000326">3002300000326</case>
+      <case value="3002300000510">3002300000510</case>
+      <case value="3002300000219">3002300000219</case>
+      <case value="3002300000221">3002300000221</case>
+      <case value="5001100000403">5001100000403</case>
+      <case value="5001100000404">5001100000404</case>
+      <case value="5001100000503">5001100000503</case>
+      <case value="5001100000504">5001100000504</case>
+      <case value="5001100000505">5001100000505</case>
+      <case value="5001100000506">5001100000506</case>
+      <case value="5001100000405">5001100000405</case>
+      <case value="5001100000406">5001100000406</case>
+      <case value="5001100000407">5001100000407</case>
+      <case value="5001200000902">5001200000902</case>
+      <case value="5001100000410">5001100000410</case>
+      <case value="5001200000403">5001200000403</case>
+      <case value="5001100000412">5001100000412</case>
+      <case value="5001200000404">5001200000404</case>
+      <case value="5001200000903">5001200000903</case>
+      <case value="5001200001101">5001200001101</case>
+      <case value="5001200000904">5001200000904</case>
+      <case value="5001200000905">5001200000905</case>
+      <case value="5001200000906">5001200000906</case>
+      <case value="5001200000907">5001200000907</case>
+      <case value="5001200001201">5001200001201</case>
+      <case value="5001200001202">5001200001202</case>
+      <case value="5001200001203">5001200001203</case>
+      <case value="5001200000908">5001200000908</case>
+      <case value="5001200001301">5001200001301</case>
+      <case value="5001200001302">5001200001302</case>
+      <case value="5001200001102">5001200001102</case>
+      <case value="5001200000909">5001200000909</case>
+      <case value="5001200001103">5001200001103</case>
+      <case value="5001200001401">5001200001401</case>
+      <case value="5001100000408">5001100000408</case>
+      <case value="5001100000409">5001100000409</case>
+      <case value="5001200001501">5001200001501</case>
+      <case value="5001200001502">5001200001502</case>
+      <case value="5001200001303">5001200001303</case>
+      <case value="5001200000910">5001200000910</case>
+      <case value="5001200001204">5001200001204</case>
+      <case value="5001200001503">5001200001503</case>
+      <case value="5001200001504">5001200001504</case>
+      <case value="5001200001205">5001200001205</case>
+      <case value="5001100000411">5001100000411</case>
+      <case value="5001200001505">5001200001505</case>
+      <case value="5001200001104">5001200001104</case>
+      <case value="5001200001105">5001200001105</case>
+      <case value="5001200001106">5001200001106</case>
+      <case value="5001100000413">5001100000413</case>
+      <case value="5001200001206">5001200001206</case>
+      <case value="5001500000401">5001500000401</case>
+      <case value="5001200000405">5001200000405</case>
+      <case value="5001300001401">5001300001401</case>
+      <case value="5001300001402">5001300001402</case>
+      <case value="5001300000311">5001300000311</case>
+      <case value="5001200001404">5001200001404</case>
+      <case value="5001300000404">5001300000404</case>
+      <case value="5001300001501">5001300001501</case>
+      <case value="5001300001601">5001300001601</case>
+      <case value="5001300001701">5001300001701</case>
+      <case value="5001300001602">5001300001602</case>
+      <case value="5001300001603">5001300001603</case>
+      <case value="5001300001604">5001300001604</case>
+      <case value="5001300000405">5001300000405</case>
+      <case value="5001300002001">5001300002001</case>
+      <case value="5001300000312">5001300000312</case>
+      <case value="5001300000313">5001300000313</case>
+      <case value="5001300001403">5001300001403</case>
+      <case value="5001300001404">5001300001404</case>
+      <case value="5001300001702">5001300001702</case>
+      <case value="5001300001703">5001300001703</case>
+      <case value="5001300001605">5001300001605</case>
+      <case value="5001300001606">5001300001606</case>
+      <case value="5001300001607">5001300001607</case>
+      <case value="2001300000131">2001300000131</case>
+      <case value="5001300001801">5001300001801</case>
+      <case value="5001300001802">5001300001802</case>
+      <case value="5001300001901">5001300001901</case>
+      <case value="5001300001902">5001300001902</case>
+      <case value="5001300001803">5001300001803</case>
+      <case value="5001300002004">5001300002004</case>
+      <case value="5001300001405">5001300001405</case>
+      <case value="5001300001406">5001300001406</case>
+      <case value="5001300001407">5001300001407</case>
+      <case value="5001300001903">5001300001903</case>
+      <case value="5001300001904">5001300001904</case>
+      <case value="5001300001905">5001300001905</case>
+      <case value="5001300000406">5001300000406</case>
+      <case value="5001300001906">5001300001906</case>
+      <case value="5001300001907">5001300001907</case>
+      <case value="5001300000408">5001300000408</case>
+      <case value="5001300001704">5001300001704</case>
+      <case value="5001300001705">5001300001705</case>
+      <case value="5001300001706">5001300001706</case>
+      <case value="5001300000314">5001300000314</case>
+      <case value="5001300002005">5001300002005</case>
+      <case value="5001300000318">5001300000318</case>
+      <case value="5001300000407">5001300000407</case>
+      <case value="5001300000315">5001300000315</case>
+      <case value="5001300000316">5001300000316</case>
+      <case value="5001300002002">5001300002002</case>
+      <case value="5001300000317">5001300000317</case>
+      <case value="5001300000319">5001300000319</case>
+      <case value="5001300000320">5001300000320</case>
+      <case value="5001300000321">5001300000321</case>
+      <case value="5001100000305">5001100000305</case>
+      <case value="5001100000306">5001100000306</case>
+      <case value="5001100000307">5001100000307</case>
+      <case value="5001100000204">5001100000204</case>
+      <case value="5001200001601">5001200001601</case>
+      <case value="5001200001602">5001200001602</case>
+      <case value="5001200001603">5001200001603</case>
+      <case value="5001200001604">5001200001604</case>
+      <case value="5001200001701">5001200001701</case>
+      <case value="5001200001804">5001200001804</case>
+      <case value="5001200001801">5001200001801</case>
+      <case value="5001200001802">5001200001802</case>
+      <case value="5001200001901">5001200001901</case>
+      <case value="5001200001902">5001200001902</case>
+      <case value="5001200001605">5001200001605</case>
+      <case value="5001200002001">5001200002001</case>
+      <case value="5001200001903">5001200001903</case>
+      <case value="5001200001803">5001200001803</case>
+      <case value="5001200001702">5001200001702</case>
+      <case value="5001200002002">5001200002002</case>
+      <case value="5001200000602">5001200000602</case>
+      <case value="5001500000402">5001500000402</case>
+      <case value="5001300002101">5001300002101</case>
+      <case value="5001300002102">5001300002102</case>
+      <case value="5001300002103">5001300002103</case>
+      <case value="5001300001207">5001300001207</case>
+      <case value="5001300002104">5001300002104</case>
+      <case value="5001300001206">5001300001206</case>
+      <case value="5001300001208">5001300001208</case>
+      <case value="5001300002202">5001300002202</case>
+      <case value="5001300002201">5001300002201</case>
+      <case value="5001300002301">5001300002301</case>
+      <case value="5001300002401">5001300002401</case>
+      <case value="5001200002003">5001200002003</case>
+      <case value="5001300002105">5001300002105</case>
+      <case value="5001300001209">5001300001209</case>
+      <case value="5001300000905">5001300000905</case>
+      <case value="5001300000906">5001300000906</case>
+      <case value="5001300002402">5001300002402</case>
+      <case value="5001300000904">5001300000904</case>
+      <case value="5001300002404">5001300002404</case>
+      <case value="5001300002403">5001300002403</case>
+      <case value="5001300001202">5001300001202</case>
+      <case value="5001300002106">5001300002106</case>
+      <case value="5001300001203">5001300001203</case>
+      <case value="3006300000902">3006300000902</case>
+      <case value="3006200000701">3006200000701</case>
+      <case value="3006200000801">3006200000801</case>
+      <case value="3006300001101">3006300001101</case>
+      <case value="3006200000702">3006200000702</case>
+      <case value="3006200000703">3006200000703</case>
+      <case value="3006300001002">3006300001002</case>
+      <case value="3006300000901">3006300000901</case>
+      <case value="3006200000802">3006200000802</case>
+      <case value="3006300001001">3006300001001</case>
+      <case value="3006300001003">3006300001003</case>
+      <case value="3006300001102">3006300001102</case>
+      <case value="3006200000804">3006200000804</case>
+      <case value="3006200000803">3006200000803</case>
+      <case value="3006300001103">3006300001103</case>
+      <case value="3004500000201">3004500000201</case>
+      <case value="3004200002002">3004200002002</case>
+      <case value="3004200002003">3004200002003</case>
+      <case value="3004200002004">3004200002004</case>
+      <case value="3004300002301">3004300002301</case>
+      <case value="3004300002303">3004300002303</case>
+      <case value="3004200002101">3004200002101</case>
+      <case value="3004100001201">3004100001201</case>
+      <case value="3004200001905">3004200001905</case>
+      <case value="3004300002201">3004300002201</case>
+      <case value="3004400000201">3004400000201</case>
+      <case value="3004200001901">3004200001901</case>
+      <case value="3004100001203">3004100001203</case>
+      <case value="3004500000202">3004500000202</case>
+      <case value="3004100001204">3004100001204</case>
+      <case value="3004300002802">3004300002802</case>
+      <case value="3004300002202">3004300002202</case>
+      <case value="3004300002304">3004300002304</case>
+      <case value="3004300002401">3004300002401</case>
+      <case value="3004300002403">3004300002403</case>
+      <case value="3004300002806">3004300002806</case>
+      <case value="3004300002404">3004300002404</case>
+      <case value="3004300002405">3004300002405</case>
+      <case value="3004300002203">3004300002203</case>
+      <case value="3004300002501">3004300002501</case>
+      <case value="3004300002803">3004300002803</case>
+      <case value="3004300002502">3004300002502</case>
+      <case value="3004300002601">3004300002601</case>
+      <case value="3004300002701">3004300002701</case>
+      <case value="3004300002807">3004300002807</case>
+      <case value="3004300002808">3004300002808</case>
+      <case value="3004200001902">3004200001902</case>
+      <case value="3004200002102">3004200002102</case>
+      <case value="3004200002103">3004200002103</case>
+      <case value="3004300002801">3004300002801</case>
+      <case value="3004300002204">3004300002204</case>
+      <case value="3004300002205">3004300002205</case>
+      <case value="3004400000203">3004400000203</case>
+      <case value="3004200000703">3004200000703</case>
+      <case value="3004400000202">3004400000202</case>
+      <case value="3004100001206">3004100001206</case>
+      <case value="3004100001205">3004100001205</case>
+      <case value="3004100001207">3004100001207</case>
+      <case value="3004200001903">3004200001903</case>
+      <case value="3004300002402">3004300002402</case>
+      <case value="3004300002702">3004300002702</case>
+      <case value="3004300002703">3004300002703</case>
+      <case value="3004300002302">3004300002302</case>
+      <case value="3004200001904">3004200001904</case>
+      <case value="3004300002804">3004300002804</case>
+      <case value="3004300002805">3004300002805</case>
+      <case value="3004200002001">3004200002001</case>
+      <case value="3004100001202">3004100001202</case>
+      <!--新核心配套by yangxfj start-->
+      <!--集中作业COS-->
+      <case value="5001300002601">5001300002601</case>
+      <case value="5001300002602">5001300002602</case>
+      <case value="5001300002603">5001300002603</case>
+      <case value="5001300002604">5001300002604</case>
+      <case value="5001200003601">5001200003601</case>
+      <case value="5001200003602">5001200003602</case>
+      <case value="5001200002201">5001200002201</case>
+      <case value="5001200002202">5001200002202</case>
+      <case value="5001200002203">5001200002203</case>
+      <case value="5001200002204">5001200002204</case>
+      <case value="5001200002501">5001200002501</case>
+      <case value="5001200002502">5001200002502</case>
+      <case value="5001200002503">5001200002503</case>
+      <case value="5001200002804">5001200002804</case>
+      <case value="5001200002805">5001200002805</case>
+      <case value="5001200002806">5001200002806</case>
+      <case value="5001200002601">5001200002601</case>
+      <case value="5001200003001">5001200003001</case>
+      <case value="5001200002801">5001200002801</case>
+      <case value="5001200002802">5001200002802</case>
+      <case value="5001200002803">5001200002803</case>
+      <case value="5001200002901">5001200002901</case>
+      <case value="5001200002902">5001200002902</case>
+      <case value="5001200002903">5001200002903</case>
+      <case value="5001200002904">5001200002904</case>
+      <case value="5001200003703">5001200003703</case>
+      <case value="5001200003701">5001200003701</case>
+      <case value="5001200003002">5001200003002</case>
+      <case value="5001200003003">5001200003003</case>
+      <case value="5001200003004">5001200003004</case>
+      <case value="5001200003005">5001200003005</case>
+      <case value="5001200003006">5001200003006</case>
+      <case value="5001200003007">5001200003007</case>
+      <case value="5001200003008">5001200003008</case>
+      <case value="5001200003009">5001200003009</case>
+      <case value="5001200003010">5001200003010</case>
+      <case value="5001200002301">5001200002301</case>
+      <case value="5001200002302">5001200002302</case>
+      <case value="5001200002701">5001200002701</case>
+      <case value="5001200002702">5001200002702</case>
+      <case value="5001200002703">5001200002703</case>
+      <case value="5001300002904">5001300002904</case>
+      <case value="5001200002602">5001200002602</case>
+      <case value="5001200002603">5001200002603</case>
+      <case value="5001200002604">5001200002604</case>
+      <case value="5001200002605">5001200002605</case>
+      <case value="5001200003201">5001200003201</case>
+      <case value="5001200003202">5001200003202</case>
+      <case value="5001200003203">5001200003203</case>
+      <case value="5001200003204">5001200003204</case>
+      <case value="5001200003205">5001200003205</case>
+      <case value="5001200003206">5001200003206</case>
+      <case value="5001200003101">5001200003101</case>
+      <case value="5001200003102">5001200003102</case>
+      <case value="5001200003103">5001200003103</case>
+      <case value="5001200003104">5001200003104</case>
+      <case value="5001200003105">5001200003105</case>
+      <case value="5001200003106">5001200003106</case>
+      <case value="5001200003107">5001200003107</case>
+      <case value="5001200003108">5001200003108</case>
+      <case value="5001200003401">5001200003401</case>
+      <case value="5001200003402">5001200003402</case>
+      <case value="5001200003403">5001200003403</case>
+      <case value="5001200003404">5001200003404</case>
+      <case value="5001200003405">5001200003405</case>
+      <case value="5001200003406">5001200003406</case>
+      <case value="5001200003407">5001200003407</case>
+      <case value="5001200003408">5001200003408</case>
+      <case value="5001200003409">5001200003409</case>
+      <case value="5001200003410">5001200003410</case>
+      <case value="5001200003411">5001200003411</case>
+      <case value="5001200003501">5001200003501</case>
+      <case value="5001200003502">5001200003502</case>
+      <case value="5001200003503">5001200003503</case>
+      <case value="5001200003412">5001200003412</case>
+      <case value="5001300002701">5001300002701</case>
+      <case value="5001300002702">5001300002702</case>
+      <case value="5001300002703">5001300002703</case>
+      <case value="5001300002704">5001300002704</case>
+      <case value="5001300002705">5001300002705</case>
+      <case value="5001200003301">5001200003301</case>
+      <case value="5001200003302">5001200003302</case>
+      <case value="5001200003303">5001200003303</case>
+      <case value="5001200002504">5001200002504</case>
+      <case value="5001200002505">5001200002505</case>
+      <case value="5001200002401">5001200002401</case>
+      <case value="5001200002402">5001200002402</case>
+      <case value="5001300002801">5001300002801</case>
+      <case value="5001300002802">5001300002802</case>
+      <case value="5001300002803">5001300002803</case>
+      <case value="5001300002901">5001300002901</case>
+      <case value="5001300002902">5001300002902</case>
+      <case value="5001300002903">5001300002903</case>
+      <case value="5001300002710">5001300002710</case>
+      <case value="5001200003413">5001200003413</case>
+      <case value="5001200003414">5001200003414</case>
+      <case value="5001300002706">5001300002706</case>
+      <case value="5001300002707">5001300002707</case>
+      <case value="5001300002708">5001300002708</case>
+      <case value="5001300002709">5001300002709</case>
+      <case value="5001300002905">5001300002905</case>
+      <!--新核心配套by yangxfj end-->
+      <case value="6001300000301">6001300000301</case>
+      <case value="6001300000302">6001300000302</case>
+      <case value="6001200000801">6001200000801</case>
+      <case value="6001200000802">6001200000802</case>
+      <case value="6001200000701">6001200000701</case>
+      <case value="6001200000702">6001200000702</case>
+      <case value="6001300000201">6001300000201</case>
+      <case value="6001300000202">6001300000202</case>
+      <case value="6001500000201">6001500000201</case>
+      <case value="6001300000203">6001300000203</case>
+      <case value="6001500000202">6001500000202</case>
+      <!--TIPS by yufxb start-->
+      <case value="3004500000201">3004500000201</case>
+      <case value="3004200002002">3004200002002</case>
+      <case value="3004200002003">3004200002003</case>
+      <case value="3004200002004">3004200002004</case>
+      <case value="3004300002301">3004300002301</case>
+      <case value="3004300002303">3004300002303</case>
+      <case value="3004200002101">3004200002101</case>
+      <case value="3004100001201">3004100001201</case>
+      <case value="3004200001905">3004200001905</case>
+      <case value="3004300002201">3004300002201</case>
+      <case value="3004400000201">3004400000201</case>
+      <case value="3004200001901">3004200001901</case>
+      <case value="3004100001203">3004100001203</case>
+      <case value="3004500000202">3004500000202</case>
+      <case value="3004100001204">3004100001204</case>
+      <case value="3004300002802">3004300002802</case>
+      <case value="3004300002202">3004300002202</case>
+      <case value="3004300002304">3004300002304</case>
+      <case value="3004300002401">3004300002401</case>
+      <case value="3004300002403">3004300002403</case>
+      <case value="3004300002806">3004300002806</case>
+      <case value="3004300002404">3004300002404</case>
+      <case value="3004300002405">3004300002405</case>
+      <case value="3004300002203">3004300002203</case>
+      <case value="3004300002501">3004300002501</case>
+      <case value="3004300002803">3004300002803</case>
+      <case value="3004300002502">3004300002502</case>
+      <case value="3004300002601">3004300002601</case>
+      <case value="3004300002701">3004300002701</case>
+      <case value="3004300002807">3004300002807</case>
+      <case value="3004300002808">3004300002808</case>
+      <case value="3004200001902">3004200001902</case>
+      <case value="3004200002102">3004200002102</case>
+      <case value="3004200002103">3004200002103</case>
+      <case value="3004300002801">3004300002801</case>
+      <case value="3004300002204">3004300002204</case>
+      <case value="3004300002205">3004300002205</case>
+      <case value="3004400000203">3004400000203</case>
+      <case value="3004200000703">3004200000703</case>
+      <case value="3004400000202">3004400000202</case>
+      <case value="3004100001206">3004100001206</case>
+      <case value="3004100001205">3004100001205</case>
+      <case value="3004100001207">3004100001207</case>
+      <case value="3004200001903">3004200001903</case>
+      <case value="3004300002402">3004300002402</case>
+      <case value="3004300002702">3004300002702</case>
+      <case value="3004300002703">3004300002703</case>
+      <case value="3004300002302">3004300002302</case>
+      <case value="3004200001904">3004200001904</case>
+      <case value="3004300002804">3004300002804</case>
+      <case value="3004300002805">3004300002805</case>
+      <case value="3004200002001">3004200002001</case>
+      <case value="3004100001202">3004100001202</case>
+      <!--TIPS by yufxb end-->
+	  <case value="3004200001302">3004200001302</case>
+      <case value="3004300001601">3004300001601</case>
+      <case value="3004300001602">3004300001602</case>
+      <case value="3004200001501">3004200001501</case>
+      <case value="3004300001603">3004300001603</case>
+      <case value="3004300001604">3004300001604</case>
+      <case value="3004300001605">3004300001605</case>
+      <case value="3004200001403">3004200001403</case>
+      <case value="3004200001503">3004200001503</case>
+      <case value="3004200001402">3004200001402</case>
+      <case value="3004200001303">3004200001303</case>
+      <case value="3004300001702">3004300001702</case>
+    </switch>
+  </channel>
+  <!--全面风险系统 ARM-->
+  <channel id="ARM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--新核心配套by yangxfj start-->
+      <!--集中作业COS-->
+      <case value="5001200003207">5001200003207</case>
+      <!--新核心配套by yangxfj end-->
+      <case value="3004300001802">3004300001802</case>
+      <case value="3004200001701">3004200001701</case>
+      <case value="3004200001601">3004200001601</case>
+      <case value="3004200001702">3004200001702</case>
+	  
+	  <!--押品信息查询-->
+      <case value="3002300000222">3002300000222</case>
+    </switch>
+  </channel>
+  <channel id="FTP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3004500000301">3004500000301</case>
+      <case value="3004500000302">3004500000302</case>
+    </switch>
+  </channel>
+  <!--CF-->
+  <channel id="CF" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3001200000216">3001200000216</case>
+      <case value="2001300000139">2001300000139</case>
+      <case value="2001300000140">2001300000140</case>
+      <case value="2001300000141">2001300000141</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+  </channel>
+  <!--CIS-->
+  <channel id="CIS" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002200000331">3002200000331</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+  </channel>
+  <channel id="PMP" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <!--信贷管理系统by yufxb start-->
+      <case value="3002200000335">3002200000335</case>
+      <!--信贷管理系统by yufxb end-->
+    </switch>
+  </channel>
+  <!--EBM-->
+  <channel id="EBM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="1001200000603">1001200000603</case>
+    </switch>
+  </channel>
+  <channel id="ATM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3001400000101">3001400000101</case>
+      <case value="3001300000213">3001300000213</case>
+      <case value="3001100000203">3001100000203</case>
+      <case value="3001200000103">3001200000103</case>
+      <case value="3001300000216">3001300000216</case>
+      <case value="3001100000405">3001100000405</case>
+      <case value="3001100000406">3001100000406</case>
+      <case value="3001200001101">3001200001101</case>
+      <case value="5001100000411">5001100000411</case>
+    </switch>
+  </channel>
+  <!--PM-->
+  <channel id="PM" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="3004200001401">3004200001401</case>
+      <case value="3004200001502">3004200001502</case>
+    </switch>
+  </channel>
+  <!--FWI-->
+  <channel id="FWI" type="dynamic">
+    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+      <case value="1001200000801">1001200000801</case>
+      <case value="1001300000702">1001300000702</case>
+    </switch>
+  </channel>
+</channels>
