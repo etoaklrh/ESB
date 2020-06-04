@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <systems>
   <!--无纸化系统-->
   <system id="Paperless">
@@ -448,44 +448,6 @@
     <service>2001200000113</service>
     <service>2001300000124</service>
     <!--新核心-->
-    <service>5001200000602</service>
-    <service>5001200001604</service>
-    <service>5001200001605</service>
-    <service>5001200001701</service>
-    <service>5001200001702</service>
-    <service>5001200001801</service>
-    <service>5001200001802</service>
-    <service>5001200001803</service>
-    <service>5001200001804</service>
-    <service>5001200001901</service>
-    <service>5001200001902</service>
-    <service>5001200001903</service>
-    <service>5001200002001</service>
-    <service>5001200002002</service>
-    <service>5001200002003</service>
-    <service>5001300000904</service>
-    <service>5001300000905</service>
-    <service>5001300000906</service>
-    <service>5001300001202</service>
-    <service>5001300001203</service>
-    <service>5001300001206</service>
-    <service>5001300001207</service>
-    <service>5001300001208</service>
-    <service>5001300001209</service>
-    <service>5001300002101</service>
-    <service>5001300002102</service>
-    <service>5001300002103</service>
-    <service>5001300002104</service>
-    <service>5001300002105</service>
-    <service>5001300002106</service>
-    <service>5001300002201</service>
-    <service>5001300002202</service>
-    <service>5001300002301</service>
-    <service>5001300002401</service>
-    <service>5001300002402</service>
-    <service>5001300002403</service>
-    <service>5001300002404</service>
-    <service>5001500000402</service>
     <service>5001100000103</service>
     <service>5001100000302</service>
     <service>2001200000114</service>
@@ -573,7 +535,7 @@
     <service>3002300000109</service>
     <service>3002300000110</service>
     <service>3002300000403</service>
-    <service>3002300000111</service>
+    <service>3.0023E+12   </service>
     <service>3002300000404</service>
     <service>3002300001004</service>
     <service>3002300001201</service>
@@ -887,6 +849,270 @@
     <service>5001200001601</service>
     <service>5001200001602</service>
     <service>5001200001603</service>
+    <service>5001200001604</service>
+    <service>5001200001701</service>
+    <service>5001200001804</service>
+    <service>5001200001801</service>
+    <service>5001200001802</service>
+    <service>5001200001901</service>
+    <service>5001200001902</service>
+    <service>5001200001605</service>
+    <service>5001200002001</service>
+    <service>5001200001903</service>
+    <service>5001200001803</service>
+    <service>5001200001702</service>
+    <service>5001200002002</service>
+    <service>5001200000602</service>
+    <service>5001500000402</service>
+    <service>5001300002101</service>
+    <service>5001300002102</service>
+    <service>5001300002103</service>
+    <service>5001300001207</service>
+    <service>5001300002104</service>
+    <service>5001300001206</service>
+    <service>5001300001208</service>
+    <service>5001300002202</service>
+    <service>5001300002201</service>
+    <service>5001300002301</service>
+    <service>5001300002401</service>
+    <service>5001200002003</service>
+    <service>5001300002105</service>
+    <service>5001300001209</service>
+    <service>5001300000905</service>
+    <service>5001300000906</service>
+    <service>5001300002402</service>
+    <service>5001300000904</service>
+    <service>5001300002404</service>
+    <service>5001300002403</service>
+    <service>5001300001202</service>
+    <service>5001300002106</service>
+    <service>5001300001203</service>
+    <service>3001200002001</service>
+    <service>3001200002002</service>
+    <service>3009200000101</service>
+    <service>3009200000102</service>
+    <service>3009200000103</service>
+    <service>3001200002101</service>
+    <service>3001200002102</service>
+    <service>3001200002103</service>
+    <service>3001200002104</service>
+    <service>3001200002105</service>
+    <service>3001200002106</service>
+    <service>3001200002107</service>
+    <service>3001200002202</service>
+    <service>3001100000905</service>
+    <service>5001200000308</service>
+    <service>5001200000309</service>
+    <service>3001200002203</service>
+    <service>3003200001101</service>
+    <service>3003200001102</service>
+    <service>3003200001103</service>
+    <service>3003200001104</service>
+    <service>5001200000603</service>
+    <service>3001300001806</service>
+    <service>5001200002101</service>
+    <service>3001100000805</service>
+    <service>3001100000806</service>
+    <service>5001200002104</service>
+    <service>3001200000213</service>
+    <service>3006500000403</service>
+    <service>3006500000404</service>
+    <service>3006500000405</service>
+    <service>3006500000406</service>
+    <service>3006500000407</service>
+    <service>3006500000408</service>
+    <service>3004400000103</service>
+    <service>3004400000104</service>
+    <service>3001300001604</service>
+    <service>3001300000331</service>
+    <service>3001300000602</service>
+    <service>3001300000603</service>
+    <service>3001300000604</service>
+    <service>3001300001801</service>
+    <service>3001300001802</service>
+    <service>3001300001907</service>
+    <service>3001300002001</service>
+    <service>3001300000328</service>
+    <service>3001300001906</service>
+    <service>3001300000605</service>
+    <service>3001300001903</service>
+    <service>3001300001902</service>
+    <service>3001300002102</service>
+    <service>3001300000606</service>
+    <service>5001300000209</service>
+    <service>5001300000210</service>
+    <service>3001300001108</service>
+    <service>5001300000211</service>
+    <service>3001300000607</service>
+    <service>3001300002105</service>
+    <service>3001300001605</service>
+    <service>3001300002201</service>
+    <service>3001300002202</service>
+    <service>3001300001403</service>
+    <service>3001300001910</service>
+    <service>3001300001908</service>
+    <service>3001300000702</service>
+    <service>3001300000332</service>
+    <service>3001300001110</service>
+    <service>3001300001803</service>
+    <service>3001300002103</service>
+    <service>3001300002104</service>
+    <service>3001300002602</service>
+    <service>3001300002603</service>
+    <service>3001300002301</service>
+    <service>3001300001912</service>
+    <service>3001300001913</service>
+    <service>3001300001804</service>
+    <service>3004300002003</service>
+    <service>3004300002004</service>
+    <service>3004300002005</service>
+    <service>3004300002006</service>
+    <service>3004300002007</service>
+    <service>3004300002009</service>
+    <service>3004300002010</service>
+    <service>3004300002011</service>
+    <service>5001300000212</service>
+    <service>5001300000213</service>
+    <service>5001300000214</service>
+    <service>3004300000305</service>
+    <service>3004100001201</service>
+    <service>3004100001202</service>
+    <service>3009100000101</service>
+    <service>3009100000102</service>
+    <service>3009100000103</service>
+    <service>3001100000410</service>
+    <service>3001100000411</service>
+    <service>3001100000205</service>
+    <service>3001100000412</service>
+    <service>3001100000413</service>
+    <service>3001100000206</service>
+    <service>3001100000802</service>
+    <service>3001100000803</service>
+    <service>3001100000414</service>
+    <service>3001200001501</service>
+    <service>3001200001601</service>
+    <service>3001200000210</service>
+    <service>3001200000211</service>
+    <service>3001200000212</service>
+    <service>3001100000605</service>
+    <service>3001200000209</service>
+    <service>3001200001504</service>
+    <service>3001200000402</service>
+    <service>3001200001701</service>
+    <service>3001200000214</service>
+    <service>3001200001703</service>
+    <service>3001200001704</service>
+    <service>3001300001807</service>
+    <service>3001200001502</service>
+    <service>3001200001705</service>
+    <service>3001200001706</service>
+    <service>3001200001503</service>
+    <service>3001200001505</service>
+    <service>3001200001801</service>
+    <service>3001200001509</service>
+    <service>3001200001506</service>
+    <service>3001200001905</service>
+    <service>3001200001802</service>
+    <service>3001200001803</service>
+    <service>3001200001804</service>
+    <service>3001200001805</service>
+    <service>3001200001901</service>
+    <service>3001200001902</service>
+    <service>3001200001903</service>
+    <service>3001200001904</service>
+    <service>3001200001906</service>
+    <service>3001200001907</service>
+    <service>3001200001507</service>
+    <service>3001200001908</service>
+    <service>3001200002201</service>
+    <service>3004100001203</service>
+    <service>3004100001204</service>
+    <service>3004100001205</service>
+    <service>3004100001206</service>
+    <service>3004100001207</service>
+    <service>3004100001208</service>
+    <service>3001200001605</service>
+    <service>3001200001806</service>
+    <service>3004100001301</service>
+    <service>3004100001302</service>
+    <service>3004100001303</service>
+    <service>3004100001304</service>
+    <service>3004100001305</service>
+    <service>3004100001306</service>
+    <service>3004100001307</service>
+    <service>3004100001308</service>
+    <service>3004100001309</service>
+    <service>3004100001310</service>
+    <service>3004100001311</service>
+    <service>3004200001801</service>
+    <service>3004200001802</service>
+    <service>3004200001803</service>
+    <service>3004200001804</service>
+    <service>5001300002302</service>
+    <service>5001300002303</service>
+    <service>5001300001204</service>
+    <service>5001300000903</service>
+    <service>5001300002203</service>
+    <service>5001300001205</service>
+    <service>5001300002204</service>
+    <service>5001300002205</service>
+    <service>5001300002304</service>
+    <service>5001300002305</service>
+    <service>5001300002501</service>
+    <service>5001300002502</service>
+    <service>5001300002503</service>
+    <service>5001300002504</service>
+    <service>5001300002505</service>
+    <service>5001300002506</service>
+    <service>5001300002507</service>
+    <service>5001300002508</service>
+    <service>3001100000602</service>
+    <service>3001100000603</service>
+    <service>3001100001002</service>
+    <service>3001100000407</service>
+    <service>3001100001003</service>
+    <service>3001100000604</service>
+    <service>3001100000305</service>
+    <service>3001100000408</service>
+    <service>3001100000804</service>
+    <service>5001200000307</service>
+    <service>3004300002102</service>
+    <service>3004300002103</service>
+    <service>3004300002104</service>
+    <service>3004300002105</service>
+    <service>3004300002106</service>
+    <service>3004300002108</service>
+    <service>3009300000201</service>
+    <service>3009300000202</service>
+    <service>3009300000205</service>
+    <service>3009300000206</service>
+    <service>3009300000203</service>
+    <service>3001300002402</service>
+    <service>3001300002403</service>
+    <service>3001300002404</service>
+    <service>3001100001001</service>
+    <service>3001100000409</service>
+    <service>3004300002107</service>
+    <service>3001300001109</service>
+    <service>3009300000204</service>
+    <service>3001300002401</service>
+    <service>3001300000233</service>
+    <service>3001300002501</service>
+    <service>3001300002502</service>
+    <service>3001300001805</service>
+    <service>3001300000608</service>
+    <service>3003300000701</service>
+    <service>3003300000702</service>
+    <service>3003300000703</service>
+    <service>3003300000704</service>
+    <service>3003300000705</service>
+    <service>3001200000215</service>
+    <service>3001200001602</service>
+    <service>3001200001603</service>
+    <service>3001200001702</service>
+    <service>3001200001604</service>
+    <service>3001200000403</service>
+    <service>3001200001508</service>
   </system>
   <!--银行卡DCS-->
   <system id="DCS">
@@ -1091,6 +1317,39 @@
     <service>3004200000109</service>
     <service>3004200000110</service>
     <service>3004200000112</service>
+    <!--yangzhaod start-->
+    <service>2001300000135</service>
+    <service>3003300000125</service>
+    <service>2001200000203</service>
+    <service>2001200000204</service>
+    <service>3003200000302</service>
+    <service>1001200000101</service>
+    <service>1001200000102</service>
+    <service>1001200000201</service>
+    <service>1001200000202</service>
+    <service>1001200000203</service>
+    <service>1001200000103</service>
+    <service>1001200000104</service>
+    <service>1001200000204</service>
+    <service>1001200000105</service>
+    <service>1001200000205</service>
+    <service>1001300000101</service>
+    <service>1001200000206</service>
+    <service>1001100000101</service>
+    <service>1001100000102</service>
+    <service>1001200000207</service>
+    <service>1001200000106</service>
+    <service>1001200000107</service>
+    <service>1001200000108</service>
+    <service>1001300000201</service>
+    <service>1001200000301</service>
+    <service>1001200000302</service>
+    <service>1001100000103</service>
+    <service>1001100000104</service>
+    <service>1001200000401</service>
+    <service>1001300000401</service>
+    <service>1001300000402</service>
+    <!--yangzhaod end-->
   </system>
   <!--商户金融-->
   <system id="CFA">
@@ -1179,7 +1438,6 @@
     <service>3002300000611</service>
     <service>3002100000213</service>
     <service>3002100000214</service>
-
     <service>3002200000201</service>
     <service>3002300000602</service>
     <service>3002200000202</service>
@@ -1187,11 +1445,9 @@
     <service>3002300000603</service>
     <service>3002100000201</service>
     <service>3002100000202</service>
-
     <service>3001200001203</service>
     <service>5001300000208</service>
     <service>6001200000602</service>
-
     <!--押品信息查询-->
     <service>3002300000222</service>
   </system>
@@ -1634,6 +1890,7 @@
   </system>
   <!--集中作业COS-->
   <system id="COS">
+    <service>1001200000804</service>
     <service>3004300000903</service>
     <service>3002200000502</service>
     <service>3002200000608</service>
@@ -1758,6 +2015,20 @@
     <service>4001200000204</service>
     <service>4001200000205</service>
   </system>
+  <system id="TPD">
+    <service>3005200001301</service>
+    <service>3005200001302</service>
+    <service>3005200001303</service>
+    <service>3005100000901</service>
+    <service>3005400000201</service>
+    <service>3005100000902</service>
+    <service>3005400000202</service>
+    <service>3005300001801</service>
+    <service>3005300001802</service>
+    <service>3005300001803</service>
+    <service>3005300001804</service>
+    <service>3005300001805</service>
+  </system>
   <!--无纸化PS-->
   <system id="PS">
     <service>6001500000101</service>
@@ -1776,12 +2047,17 @@
   </system>
   <!--电子验印系统EVS-->
   <system id="EVS">
-    <service>6001200000401</service>
+    <service>6001200000405</service>
+  </system>
+  <!--teller9服务综合柜员前端柜面系统MMS-->
+  <system id="MMS">
+    <service>1001200000701</service>
+    <service>1001200000702</service>
+    <service>1001200000703</service>
   </system>
   <!--收单管理系统POS-->
   <system id="POS">
     <service>5001200000304</service>
-
     <service>3003200001201</service>
     <service>3003300000801</service>
     <service>3003200001301</service>
@@ -1830,14 +2106,14 @@
     <service>3004300002301</service>
     <service>3004300002303</service>
     <service>3004200002101</service>
-    <service>3004100001201</service>
+    <service>3004100001401</service>
     <service>3004200001905</service>
     <service>3004300002201</service>
     <service>3004400000201</service>
     <service>3004200001901</service>
-    <service>3004100001203</service>
+    <service>3004100001403</service>
     <service>3004500000202</service>
-    <service>3004100001204</service>
+    <service>3004100001404</service>
     <service>3004300002802</service>
     <service>3004300002202</service>
     <service>3004300002304</service>
@@ -1863,9 +2139,9 @@
     <service>3004400000203</service>
     <service>3004200000703</service>
     <service>3004400000202</service>
-    <service>3004100001206</service>
-    <service>3004100001205</service>
-    <service>3004100001207</service>
+    <service>3004100001406</service>
+    <service>3004100001405</service>
+    <service>3004100001407</service>
     <service>3004200001903</service>
     <service>3004300002402</service>
     <service>3004300002702</service>
@@ -1875,7 +2151,7 @@
     <service>3004300002804</service>
     <service>3004300002805</service>
     <service>3004200002001</service>
-    <service>3004100001202</service>
+    <service>3004100001402</service>
   </system>
   <!--电信网络新型违法犯罪交易风险事件管理平台-->
   <system id="TRE">
@@ -1984,7 +2260,46 @@
     <service>3005300001105</service>
     <service>3005300000227</service>
   </system>
-  <!--新中间业务平台-->
+  <!--银联无卡快捷支付系统-->
+  <system id="FQP">
+    <service>3004300001701</service>
+    <service>3004200001301</service>
+    <service>3004200001401</service>
+    <service>3004200001502</service>
+    <service>3004200001302</service>
+    <service>3004300001601</service>
+    <service>3004300001602</service>
+    <service>3004200001501</service>
+    <service>3004300001603</service>
+    <service>3004300001604</service>
+    <service>3004300001605</service>
+    <service>3004200001403</service>
+    <service>3004200001503</service>
+    <service>3004200001402</service>
+    <service>3004200001303</service>
+    <service>3004300001702</service>
+    <service>3006200000605</service>
+    <service>3006200000606</service>
+    <service>3006200000607</service>
+    <service>3006300000802</service>
+    <service>3006200000608</service>
+  </system>
+  <!--自助设备统一管理平台(ATMP)-->
+  <system id="ATMP">
+    <service>1001200000604</service>
+    <service>1001200000605</service>
+    <service>1001200000801</service>
+    <service>1001200000802</service>
+    <service>1001200000803</service>
+    <service>1001300000701</service>
+    <service>1001300000702</service>
+  </system>
+  <!--增值税管理系统-->
+  <system id="VAT">
+    <service>3006300000624</service>
+  </system>
+  <!--增值税管理系统end-->
+  <!--新中间业务平台NMB start-->
   <system id="NMB">
     <service>3006200001101</service>
     <service>3006300001401</service>
@@ -2095,33 +2410,286 @@
     <service>3003300000803</service>
     <service>3003300000804</service>
   </system>
-  <!--银联无卡快捷支付系统-->
-  <system id="FQP">
-    <service>3004300001701</service>
-    <service>3004200001301</service>
-    <service>3004200001401</service>
-    <service>3004200001502</service>
-    <service>3004200001302</service>
-    <service>3004300001601</service>
-    <service>3004300001602</service>
-    <service>3004200001501</service>
-    <service>3004300001603</service>
-    <service>3004300001604</service>
-    <service>3004300001605</service>
-    <service>3004200001403</service>
-    <service>3004200001503</service>
-    <service>3004200001402</service>
-    <service>3004200001303</service>
-    <service>3004300001702</service>
+  <!--新中间业务平台NMB end-->
+  <!--银保通(BIC)-->
+  <system id="BIC">
+    <service>3006100000117</service>
+    <service>3006100000118</service>
+    <service>3006100000119</service>
+    <service>3006300002001</service>
+    <service>3006300002002</service>
+    <service>3006300002003</service>
+    <service>3006300002004</service>
+    <service>3006300002005</service>
+    <service>3006300002006</service>
   </system>
-  <!--自助设备统一管理平台(ATMP)-->
-  <system id="ATMP">
-    <service>1001200000604</service>
-    <service>1001200000605</service>
-    <service>1001200000801</service>
-    <service>1001200000802</service>
-    <service>1001200000803</service>
-    <service>1001300000701</service>
-    <service>1001300000702</service>
+  <system id="TLE">
+    <service>1001200000804</service>
+    <service>1001200000705</service>
+    <service>1001200000704</service>
+    <service>1001200000703</service>
+    <service>1001200000702</service>
+    <service>1001300000601</service>
+    <service>1001200000701</service>
+  </system>
+  <!--理财销售平台FIN start-->
+  <system id="FIN">
+    <service>3005200001202</service>
+    <service>3005200001203</service>
+    <service>3005200001204</service>
+    <service>3005200000118</service>
+    <service>3005200000119</service>
+    <service>3005200000110</service>
+    <service>3005200000112</service>
+    <service>3005300000808</service>
+    <service>3005300000118</service>
+    <service>3005300000119</service>
+    <service>3005200000802</service>
+    <service>3005200001101</service>
+    <service>3005200001102</service>
+    <service>3005300001501</service>
+    <service>3005300001502</service>
+    <service>3005200001201</service>
+    <service>2001200000202</service>
+    <service>3005300001207</service>
+    <service>3005100000603</service>
+    <service>3005100000604</service>
+    <service>3005300001203</service>
+    <service>3005200000603</service>
+    <service>3005200000111</service>
+    <service>3005200000407</service>
+    <service>3005200000409</service>
+    <service>3005100000206</service>
+    <service>3005100000207</service>
+    <service>3005100000208</service>
+    <service>3005300001204</service>
+    <service>3005300001205</service>
+    <service>3005300000117</service>
+    <service>3005300000239</service>
+    <service>3005300000215</service>
+    <service>3005300000216</service>
+    <service>3005300000217</service>
+    <service>3005300000218</service>
+    <service>3005300001005</service>
+    <service>3005300001006</service>
+    <service>3005300001008</service>
+    <service>3005300000219</service>
+    <service>3005300001602</service>
+    <service>3005300001206</service>
+    <service>3005100000210</service>
+    <service>3005300001403</service>
+    <service>3005300000121</service>
+    <service>3005300000220</service>
+    <service>3005100000701</service>
+    <service>3005100000702</service>
+    <service>3005100000703</service>
+    <service>3005300001404</service>
+    <service>3005300000122</service>
+    <service>3005300001405</service>
+    <service>3005300000123</service>
+    <service>5001300000206</service>
+    <service>5001300000207</service>
+    <service>3005300001603</service>
+    <service>3005300000221</service>
+    <service>3005200000602</service>
+    <service>3005100000205</service>
+    <service>3005100000209</service>
+    <service>3005300000809</service>
+    <service>3005300001109</service>
+    <service>3005300001401</service>
+    <service>3005300001402</service>
+    <service>3005300000240</service>
+    <service>3005300000120</service>
+    <service>3005300001007</service>
+  </system>
+  <!--理财销售平台FIN end-->
+  <system id="MBP">
+    <service>3006300002101</service>
+    <service>3006300002102</service>
+    <service>3006300002127</service>
+    <service>3006300002103</service>
+    <service>3006300002104</service>
+    <service>3006100000122</service>
+    <service>3006100000123</service>
+    <service>3006100000124</service>
+    <service>3006100000120</service>
+    <service>3006100000125</service>
+    <service>3006100000301</service>
+    <service>3006100000302</service>
+    <service>3006100000303</service>
+    <service>3006100000304</service>
+    <service>3006100000305</service>
+    <service>3006300002201</service>
+    <service>3006300002202</service>
+    <service>3006300002203</service>
+    <service>3006300002204</service>
+    <service>3006300002205</service>
+    <service>3006300002206</service>
+    <service>3006300002207</service>
+    <service>3006300002208</service>
+    <service>3006100000306</service>
+    <service>3006100000307</service>
+    <service>3006100000308</service>
+    <service>3006100000310</service>
+    <service>3006300002128</service>
+    <service>3006300002129</service>
+    <service>3006500000308</service>
+    <service>3006500000309</service>
+    <service>3006500000310</service>
+    <service>3006500000311</service>
+    <service>3006300002301</service>
+    <service>3006300002302</service>
+    <service>3006100000121</service>
+    <service>3006300002130</service>
+    <service>3006100000309</service>
+    <service>3006300002210</service>
+    <service>3006300002209</service>
+    <service>3006400000209</service>
+    <service>3006300002303</service>
+    <service>3006300002211</service>
+    <service>3006300002305</service>
+    <service>3006400000210</service>
+    <service>3006300002304</service>
+    <service>3006300002212</service>
+    <service>3006300002306</service>
+    <service>3006100000126</service>
+    <service>3006100000127</service>
+    <service>1004300000101</service>
+    <service>1004200000101</service>
+    <service>1004300000102</service>
+    <service>1004200000102</service>
+    <service>1004100000101</service>
+    <service>1004100000103</service>
+    <service>1004300000103</service>
+    <service>1004300000104</service>
+    <service>1004300000105</service>
+    <service>1004300000106</service>
+    <service>1004200000103</service>
+    <service>1004300000107</service>
+    <service>1004300000108</service>
+    <service>1004100000102</service>
+    <service>3005100001101</service>
+    <service>3005200001401</service>
+    <service>3005300002101</service>
+    <service>3005200001603</service>
+    <service>3005400000401</service>
+    <service>3005200001503</service>
+    <service>3005100001102</service>
+    <service>3005300002401</service>
+    <service>3005200001504</service>
+    <service>3005300002001</service>
+    <service>3005300002102</service>
+    <service>3005300002301</service>
+    <service>3005200001601</service>
+    <service>3005300002302</service>
+    <service>3005200001505</service>
+    <service>3005200001406</service>
+    <service>3005200001602</service>
+    <service>3005300002002</service>
+    <service>3005300002104</service>
+    <service>3005300002304</service>
+    <service>3005300002103</service>
+    <service>3005200001506</service>
+    <service>3005300002305</service>
+    <service>3005100001103</service>
+    <service>3005200001501</service>
+    <service>3005200001407</service>
+    <service>3005300002003</service>
+    <service>3005300002004</service>
+    <service>3005200001402</service>
+    <service>3005300002303</service>
+    <service>3005300002005</service>
+    <service>3005200001408</service>
+    <service>3005200001409</service>
+    <service>3005300002006</service>
+    <service>3005300002201</service>
+    <service>3005200001507</service>
+    <service>3005300002204</service>
+    <service>3005400000402</service>
+    <service>3005200001502</service>
+    <service>3005300002202</service>
+    <service>3005200001508</service>
+    <service>3005300002203</service>
+    <service>3005300002105</service>
+    <service>3005300002402</service>
+    <service>3005200001404</service>
+    <service>3005300002007</service>
+    <service>3005200001405</service>
+  </system>
+  <!--二代支付系统-->
+  <system id="PS2">
+    <service>3004300000504</service>
+    <service>3004300000505</service>
+    <service>3004300003501</service>
+    <service>3004300000506</service>
+    <service>3004300000507</service>
+    <service>3004300000211</service>
+    <service>3004300000212</service>
+    <service>3004300003407</service>
+    <service>3004200000213</service>
+    <service>3004300000602</service>
+    <service>3004200002601</service>
+    <service>3004100000307</service>
+    <service>3004300003401</service>
+    <service>3004200002602</service>
+    <service>3004300003402</service>
+    <service>3004300003403</service>
+    <service>3004200002603</service>
+    <service>3004300003404</service>
+    <service>3004300003405</service>
+    <service>3004300003406</service>
+    <service>5001300000216</service>
+    <service>3004300000604</service>
+    <service>3004300003502</service>
+    <service>3004300003503</service>
+    <service>3004100000308</service>
+    <service>3004100000309</service>
+    <service>3004100000310</service>
+    <service>3004300003504</service>
+    <service>3004300003601</service>
+    <service>3004300003602</service>
+    <service>3004100000311</service>
+    <service>3004200002604</service>
+    <service>3004300000603</service>
+    <service>3004100000202</service>
+    <service>3004300003505</service>
+    <service>3004300003506</service>
+    <service>3004400000105</service>
+    <service>3004300000213</service>
+    <service>3004300003507</service>
+    <service>3004300003508</service>
+    <service>3004300003603</service>
+    <service>3004100000312</service>
+    <service>3004300003604</service>
+    <service>3004100000313</service>
+    <service>3004300003605</service>
+    <service>3004300003701</service>
+    <service>3004300003702</service>
+    <service>3004300000308</service>
+    <service>3004400000106</service>
+    <service>3004300000214</service>
+    <service>3004300000215</service>
+    <service>3004300000509</service>
+    <service>3004300000216</service>
+    <service>3004300000508</service>
+  </system>
+   <!--二代支付系统-->
+  <system id="DBC">
+    <service>1001200000501</service>
+	<service>1001200000502</service>
+	<service>1001200000503</service>
+	<service>1001200000504</service>
+	<service>1001200000505</service>
+	<service>1001200000506</service>
+	<service>1001200000507</service>
+	<service>1001200000508</service>
+	<service>1001200000509</service>
+	<service>1001200000510</service>
+	<service>1001200000511</service>
+	<service>1001200000303</service>
+	<service>1001200000304</service>
+	<service>1001100000105</service>
+	<service>1001300000301</service>
+	<service>3004200000113</service>
   </system>
 </systems>

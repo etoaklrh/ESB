@@ -2,12 +2,10 @@
 <param-conf>
 	<!-- EBANK -->
 	<param channel="NCSS" port="39051" headLen="8" encode="UTF-8" type="TCP"/>
-	<!-- 柜面 -->
-	<param channel="CMS" port="39003" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- BIP -->
 	<param channel="BIP" port="39000" headLen="8" encode="UTF-8" type="TCP"/>
-	<!-- DBK -->
-	<param channel="DBK" port="39029" headLen="8" encode="UTF-8" type="TCP"/>	
+	<!-- DBC -->
+	<param channel="DBC" port="39029" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- FAM -->
 	<param channel="FAM" port="39030" headLen="8" encode="UTF-8" type="TCP"/>	
 	<!-- FIN -->
@@ -37,17 +35,61 @@
 	<!-- EBS -->
 	<param channel="EBS" port="39059" headLen="8" encode="UTF-8" type="TCP"/>		 
 	<!-- TLE -->
-	<param channel="TLE" port="39200" headLen="8" encode="UTF-8" type="TCP"/>
+	<param channel="TLE" port="39202" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- ARM -->
-	<param channel="ARM" port="39068" headLen="8" encode="UTF-8" type="TCP"/>	
-	<!-- CM -->
-	<param channel="CM" port="39042" headLen="8" encode="UTF-8" type="TCP"/>		
+	<param channel="ARM" port="39068" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- COS -->
-	<param channel="COS" port="39028" headLen="8" encode="UTF-8" type="TCP"/>		
+	<param channel="COS" port="39028" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- FTP -->
 	<param channel="FTP" port="39067" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- EOS -->
 	<param channel="EOS" port="39043" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- EB -->
-	<param channel="EB" port="39045" headLen="8" encode="UTF-8" type="TCP"/>		
+	<param channel="EB" port="39045" headLen="8" encode="UTF-8" type="TCP"/>
+
+	<!-- 二代支付-->
+	<!-- MBP -->
+	<param channel="MBP" port="39025" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- NMB -->
+	<param channel="NMB" port="39026" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- PTC -->
+	<param channel="PTC" port="39064" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- MEO -->
+	<param channel="MEO" port="39094" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- GLS -->
+	<param channel="GLS" port="39091" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- SWI -->
+	<param channel="SWI" port="39092" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- SCS -->
+	<param channel="SCS" port="39093" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- TCP -->
+	<param channel="TCP" port="39090" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- FMS -->
+	<param channel="FMS" port="39054" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- CM  -->
+	<param channel="CM" port="39042" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- TIP -->
+	<param channel="TIP" port="39023" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- STM -->
+	<param channel="STM" port="39308" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- DBK -->
+	<param channel="DBK" port="39082" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- SFC -->
+	<param channel="SFC" port="39019" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- FQP -->
+	<param channel="FQP" port="39022" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- MTC -->
+	<param channel="MTC" port="39063" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- CMS -->
+	<param channel="CMS" port="39047" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- EBM -->
+	<param channel="EBM" port="39066" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- IBM -->
+	<param channel="IBM" port="39044" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- CSS -->
+	<param channel="CSS" port="39051" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- FWI -->
+	<param channel="FWI" port="39077" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- FUN -->
+	<param channel="FUN" port="39061" headLen="8" encode="UTF-8" type="TCP"/>
 </param-conf>

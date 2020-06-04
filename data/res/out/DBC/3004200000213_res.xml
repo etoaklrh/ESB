@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<service> 
+  <sysHead> 
+    <svcCd>1</svcCd>  
+    <scnCd>1</scnCd>  
+    <cnsmSysId>1</cnsmSysId>  
+    <prvdSysId>1</prvdSysId>  
+    <prvdSysSvrId>1</prvdSysSvrId>  
+    <subSeqNo>1</subSeqNo>  
+    <prvdSysSeqNo>1</prvdSysSeqNo>  
+    <retStatus>1</retStatus>  
+    <sourceBranchNo>1</sourceBranchNo>  
+    <runDate>1</runDate>  
+    <tranDate>1</tranDate>  
+    <tranTimestamp>1</tranTimestamp>  
+    <ret> 
+      <retCode>1</retCode>  
+      <retMsg>1</retMsg> 
+    </ret>  
+    <fileFlg>1</fileFlg>  
+    <filePath>1</filePath>  
+    <seqNo>1</seqNo>  
+    <macValue>1</macValue>  
+    <branchId>1</branchId>  
+    <clientNo>1</clientNo> 
+  </sysHead>  
+  <appHead> 
+    <pgupOrPgdn>1</pgupOrPgdn>  
+    <totalNum>1</totalNum>  
+    <currentNum>1</currentNum>  
+    <totalRows>1</totalRows>  
+    <totalFlag>1</totalFlag> 
+  </appHead>  
+  <body> 
+    <cntrstDt>1</cntrstDt>
+    <msgTyp>1</msgTyp>
+    <filePath1>1</filePath1>
+    <nosAcctTotNum>1</nosAcctTotNum>
+    <vosAcctTotNum>1</vosAcctTotNum>
+    <hvpsTotalNum>1</hvpsTotalNum>
+    <startTm>1</startTm>
+    <endTm>1</endTm>
+    <nosAcctDRTotNum>1</nosAcctDRTotNum>
+    <nosAcctCRTotNum>1</nosAcctCRTotNum>
+    <vosAcctDRTotNum>1</vosAcctDRTotNum>
+    <vosAcctCRTotNum>1</vosAcctCRTotNum>
+    <totNum>1</totNum>
+  </body> 
+</service>

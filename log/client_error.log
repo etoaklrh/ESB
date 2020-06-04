@@ -1,5 +1,5 @@
-2020-05-26 19:09:38 073 main ERROR [com.parse.IPConfigMap:105] - åº”ç”¨æœåŠ¡å™¨[ esbapp2 ]çš„å‚æ•°æœªé…ç½®ï¼Œè¯·ç¡®è®¤ï¼
-2020-05-26 19:09:38 074 main ERROR [com.parse.IPConfigMap:105] - åº”ç”¨æœåŠ¡å™¨[ esbapp3 ]çš„å‚æ•°æœªé…ç½®ï¼Œè¯·ç¡®è®¤ï¼
-2020-05-26 19:09:38 075 main ERROR [com.parse.IPConfigMap:105] - åº”ç”¨æœåŠ¡å™¨[ esbapp4 ]çš„å‚æ•°æœªé…ç½®ï¼Œè¯·ç¡®è®¤ï¼
-2020-05-26 19:09:38 075 main ERROR [com.parse.IPConfigMap:105] - åº”ç”¨æœåŠ¡å™¨[ f5 ]çš„å‚æ•°æœªé…ç½®ï¼Œè¯·ç¡®è®¤ï¼
-2020-05-26 19:09:38 461 main ERROR [com.utils.DataProcessTools:153] - [ serviceIdentify.xml ]ä¸æ˜¯ç›®å½•
+2020-06-04 09:58:29 548 main ERROR [com.parse.IPConfigMap:105] - Ó¦ÓÃ·şÎñÆ÷[ esbapp2 ]µÄ²ÎÊıÎ´ÅäÖÃ£¬ÇëÈ·ÈÏ£¡
+2020-06-04 09:58:29 548 main ERROR [com.parse.IPConfigMap:105] - Ó¦ÓÃ·şÎñÆ÷[ esbapp3 ]µÄ²ÎÊıÎ´ÅäÖÃ£¬ÇëÈ·ÈÏ£¡
+2020-06-04 09:58:29 549 main ERROR [com.parse.IPConfigMap:105] - Ó¦ÓÃ·şÎñÆ÷[ esbapp4 ]µÄ²ÎÊıÎ´ÅäÖÃ£¬ÇëÈ·ÈÏ£¡
+2020-06-04 09:58:29 549 main ERROR [com.parse.IPConfigMap:105] - Ó¦ÓÃ·şÎñÆ÷[ f5 ]µÄ²ÎÊıÎ´ÅäÖÃ£¬ÇëÈ·ÈÏ£¡
+2020-06-04 09:58:29 765 main ERROR [com.utils.DataProcessTools:153] - [ serviceIdentify.xml ]²»ÊÇÄ¿Â¼
