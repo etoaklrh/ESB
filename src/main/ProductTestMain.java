@@ -13,7 +13,7 @@ public class ProductTestMain {
         String esbapp3 = IPConfigMap.getInstance().getIPValue("esbapp3");
         String esbapp4 = IPConfigMap.getInstance().getIPValue("esbapp4");
         String esbF5 = IPConfigMap.getInstance().getIPValue("f5");
-//
+//dafsasdf
         if (esbapp1 != null && !"".equals(esbapp1.trim()))
             sc.initService(esbapp1);
         if (esbapp2 != null && !"".equals(esbapp2.trim()))
