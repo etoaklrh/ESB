@@ -24,5 +24,4 @@ public class ProductTestMain {
         if (esbF5 != null && !"".equals(esbF5.trim()))
             sc.initService(esbF5);
     }
-
 }
