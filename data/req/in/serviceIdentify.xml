@@ -2609,7 +2609,7 @@
   </channel>
   <!--柜面-->
   <channel id="TLE" type="dynamic">
-    <switch mode="xml" expression="/service/sysHead/svcCd+/service/sysHead/scnCd" encode="UTF-8">
+    <switch mode="xml" expression="sysHead/svcCd+sysHead/scnCd" encode="UTF-8">
       <case value="3005200001301">3005200001301</case>
       <case value="3005200001302">3005200001302</case>
       <case value="3005200001303">3005200001303</case>
@@ -4691,6 +4691,10 @@
       <!--信贷管理系统by yufxb start-->
       <case value="3002200000331">3002200000331</case>
       <!--信贷管理系统by yufxb end-->
+      <!--中间业务系统by yufxb start-->
+      <case value="3005300002301">3005300002301</case>
+      <case value="3005300002305">3005300002305</case>
+      <!--中间业务系统by yufxb end-->
     </switch>
   </channel>
   <channel id="PMP" type="dynamic">
