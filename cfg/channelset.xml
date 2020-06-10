@@ -92,4 +92,9 @@
 	<param channel="FWI" port="39077" headLen="8" encode="UTF-8" type="TCP"/>
 	<!-- FUN -->
 	<param channel="FUN" port="39061" headLen="8" encode="UTF-8" type="TCP"/>
+
+	<!-- JSG -->
+	<param channel="JSG" port="39086" headLen="8" encode="UTF-8" type="TCP"/>
+	<!-- CIS -->
+	<param channel="CIS" port="39204" headLen="8" encode="UTF-8" type="TCP"/>
 </param-conf>
